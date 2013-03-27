@@ -1,0 +1,9 @@
+{"action":"login","user":"dog","pass":"pass"}
+{"action":"location","user":"dog","lat":"52.35198423091655","lon":"-1.9664990901947021"}
+{"action":"location","user":"dog","lat":"52.352003890718315","lon":"-1.966450810432434"}
+{"action":"location","user":"dog","lat":"52.352164445438646","lon":"-1.9658446311950684"}
+
+{"action":"update","user":"dog"}
+
+{"action":"unit.create","user":"dog","lat":"52.352164445438646","lon":"-1.9658446311950684"}
+{"action":"unit.move","user":"dog","id":"1","lat":"52.4126272","lon":"-4.0675781"}

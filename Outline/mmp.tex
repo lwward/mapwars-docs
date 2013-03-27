@@ -1,0 +1,88 @@
+\documentclass[11pt,fleqn,twoside]{article}
+\usepackage{makeidx}
+\makeindex
+\usepackage{palatino} %or {times} etc
+\usepackage{plain} %bibliography style 
+\usepackage{amsmath} %math fonts - just in case
+\usepackage{amsfonts} %math fonts
+\usepackage{amssymb} %math fonts
+\usepackage{lastpage} %for footer page numbers
+\usepackage{fancyhdr} %header and footer package
+\usepackage{mmp} 
+\usepackage{url}
+\usepackage{cite}
+
+\begin{document}
+
+\name{Luke Ward}
+\userid{luw9}
+\projecttitle{Location-aware multiplayer \\ strategy game}
+\projecttitlememoir{Location-aware multiplayer strategy game} %same as the project title or abridged version for page header
+\reporttitle{Outline Project Specification}
+\version{0.2}
+\docstatus{Release}
+\degreeschemecode{G401}
+\degreeschemename{Computer Science}
+\modulecode{CS39440}
+\supervisor{Reyer Zwiggelaar} % e.g. Neil Taylor
+\supervisorid{rzz}
+
+%optional - comment out next line to use current date for the document
+\documentdate{October 20, 2012}
+\mmp
+
+\setcounter{tocdepth}{3} %set required number of level in table of contents
+
+
+%==============================================================================
+\section{Project description}
+%==============================================================================
+The project is to create a location-aware multiplayer strategy game, codenamed MapWars, ideally on the Android platform. Gameplay will centre around the users location and be overlaid on top of Google Maps or other maps provider. The users actual location will allow them to control and interact with their units and resources within a given range. The purpose of the game is to expand your base by collecting resources and building different structures. Each type of structure will have a different role within the game, some allowing the creation of infantry, vehicles and other units. Other buildings will help increase the speed in which resources are collected, the users range of control or any number of other functionality.
+
+The multiplayer aspect of the game will mean that players will be able to see other players units and structures when they are within range. They will also be able to attack opponents units, gaining resources for destroying buildings. A decision will need to be made as to offline players role within the game. My initial instinct is to try and keep offline players units and buildings visible within the game even while they are offline. Meaning that they will need to put in place adequate defences to protect their base from attack while they are not active.
+
+There is a lot of scope to add artificial intelligence aspects to the server code. A level of AI will be needed to keep units active, moving and responding to other players units while the units owner is not active or to far away to interact directly. Also as the gameplay takes place on a map it would be desirable to implement the Google Directions API or similar so as to direct the units movements along physical roads and paths instead of just navigating across buildings and other untraversable terrain. It may also be possible to add some intelligence to the server so that the availability of resources match their locations within the real world, such as forests. The idea being to as closely match the real world within the application giving the user the feeling that the gameplay is happening around them.
+
+
+
+%==============================================================================
+\section{Work to be tackled}
+%==============================================================================
+
+The majority of the work will be split into two distinct sections, client and server. The client would be most suited to being a hand-held device such as a smartphone, this is why my first choice for platform would be the Android system. I have had some previous experience developing simple applications and found that it is a relatively easy system to get started with. It would also be possible to develop a HTML5 application that could be used a wide variety of devices. This approach would be possible but would not allow for certain features such as running in the background sending notifications to the user. The Android system is built by Google and thus has great support for their products, such as Maps which will be a very large part of the application. I may need to find an alternative for Google Maps and APIs as they have a number of restrictions against their use \cite{google_maps_license} and also requires a license if you wish to use them within a paid application \cite{google_maps_premier}. OpenStreetMap is an obvious alternative mapping solution and has proven to be easily integratable with the Android system. An alternative, and probably more attractive soultion, would be MapQuest \cite{MapQuest} which comes with its own Android APIs which are based on the native Android models. MapQuest allows the use of OpenStreetMap data through its API, meaning that its data can be freely used in a paid-for applications.
+
+As for the server script it will need to be able to handle a large number of connections and be reliable enough to run continuously. It will also need to be able to respond quickly to each connection as requests are received, meaning each connection will probably be running on a separate thread. Specifying the interaction between the server and client will be important to get right so that the two can be worked on independently. As well as what information is needed and the structure that information will be in, I will also need to determine the data-interchange format (BISON, JSON, XML) and type of communication (push/pull).
+
+
+%==============================================================================
+\section{Project deliverables}
+%==============================================================================
+
+Each of the major points of the client application should be worked on one by one, with a working application being built up as each new element is completed. These would be:
+\begin{itemize}
+\item Working map with users current location. Location should update to match users movements
+\item Simple server interaction. Sending users location and displaying other users locations
+\item Simple Unit creation and displaying of others units. Including selection and movement of your own units
+\item Fully working application with added unit and structure types as well as resource gathering
+\end{itemize}
+
+The deliverables for the server part of the project will match the order of the clients development to support each new feature that is added. This does not mean that the two will be developed at an equal pace but would make integration testing possible at different stages throughout the development.
+\begin{itemize}
+\item Receive and store data from client, replying with stored data to client
+\item Unit creation with movement tracking. Also need to keep track of users resource levels
+\item AI elements added to units. Battling, exploration, path finding
+\end{itemize}
+
+%==============================================================================
+\section{Initial bibliography}
+%==============================================================================
+
+% example of including
+\nocite{*}
+
+\bibliographystyle{ieeetr}
+\renewcommand{\refname}{}  % if you put text into the final {} on this line, you will get an extra title, e.g. References. This isn't necessary for the outline project specification. 
+\bibliography{mmp} % References file
+
+
+\end{document}

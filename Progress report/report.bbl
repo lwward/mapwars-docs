@@ -1,0 +1,65 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{mapquest}
+``{MapQuest developers},'' \url{http://developer.mapquest.com/}, accessed
+  October 2012.
+ \begin{quotation}\noindent Introduction of all MapQuest APIs and futher
+  details about the Android implementation, including download \end{quotation}
+
+\bibitem{google_map_license}
+``{Google Maps API licensing},''
+  \url{https://developers.google.com/maps/licensing}, november 2012, accessed
+  November 2012.
+ \begin{quotation}\noindent Details on Google Map API licenses for use in
+  public and business applications \end{quotation}
+
+\bibitem{6329833}
+C.~Lopes, T.~Debeauvais, and A.~Valadares, ``Restful massively multi-user
+  virtual environments: A feasibility study,'' in \emph{Games Innovation
+  Conference (IGIC), 2012 IEEE International}, sept 2012, pp. 1 --4.
+ \begin{quotation}\noindent Research into the feasability of using RESTful
+  arcitecture for MMO games. I found a lot of details about current solutions
+  as well as how they thought REST could be a suitable alternative. The
+  calculations included in this paper are a good starting point to help decide
+  if this is suitable on low bandwidth mobile devices. I would be interested in
+  taking this information and seeing how and if it could be applied to mobile
+  devices. \end{quotation}
+
+\bibitem{sec2}
+C.~McGraw and G.~Hoglund, ``Online games and security,'' \emph{Security
+  Privacy, IEEE}, vol.~5, no.~5, pp. 76 --79, sept.-oct. 2007.
+
+
+\bibitem{sec3}
+R.~Robles, S.-S. Yeo, Y.-D. Moon, G.~Park, and S.~Kim, ``Online games and
+  security issues,'' in \emph{Future Generation Communication and Networking,
+  2008. FGCN '08. Second International Conference on}, vol.~2, dec. 2008, pp.
+  145 --148.
+
+
+\bibitem{sec1}
+R.~Shrestha and Y.~Aihong, ``Design of secure location and message sharing
+  system for android platform,'' in \emph{Computer Science and Automation
+  Engineering (CSAE), 2012 IEEE International Conference on}, may 2012, pp. 117
+  --121.
+
+
+\end{thebibliography}

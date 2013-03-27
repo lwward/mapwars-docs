@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: report.aux
+The style file: IEEEannot.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: report.bib
+-- IEEEtranS.bst version 1.11 (2003/04/02) by Michael Shell.
+-- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Sorting version - not for use with work to be submitted to the IEEE.
+Warning--to sort, need author, organization, or key in google_map_license
+Warning--to sort, need author, organization, or key in mapquest
+
+Done.
+You've used 6 entries,
+            4538 wiz_defined-function locations,
+            922 strings with 9455 characters,
+and the built_in function-call counts, 4977 in all, are:
+= -- 420
+> -- 108
+< -- 33
++ -- 56
+- -- 24
+* -- 258
+:= -- 727
+add.period$ -- 12
+call.type$ -- 6
+change.case$ -- 32
+chr.to.int$ -- 78
+cite$ -- 8
+duplicate$ -- 332
+empty$ -- 406
+format.name$ -- 28
+if$ -- 1126
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 58
+newline$ -- 44
+num.names$ -- 8
+pop$ -- 161
+preamble$ -- 1
+purify$ -- 24
+quote$ -- 2
+skip$ -- 368
+stack$ -- 0
+substring$ -- 226
+swap$ -- 252
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 6
+type$ -- 52
+warning$ -- 2
+while$ -- 20
+width$ -- 7
+write$ -- 79
+(There were 2 warnings)

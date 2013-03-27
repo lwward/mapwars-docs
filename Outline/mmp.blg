@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: mmp.aux
+The style file: ieeetr.bst
+Database file #1: mmp.bib
+You've used 4 entries,
+            1876 wiz_defined-function locations,
+            493 strings with 3969 characters,
+and the built_in function-call counts, 770 in all, are:
+= -- 76
+> -- 17
+< -- 0
++ -- 8
+- -- 4
+* -- 37
+:= -- 103
+add.period$ -- 7
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 34
+empty$ -- 94
+format.name$ -- 4
+if$ -- 198
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 1
+newline$ -- 18
+num.names$ -- 3
+pop$ -- 28
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 29
+stack$ -- 0
+substring$ -- 33
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 5
+width$ -- 5
+write$ -- 38

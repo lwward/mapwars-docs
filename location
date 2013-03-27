@@ -1,0 +1,7 @@
+GPS Location Shiz
+
+Multiple services
+GPS, network towers, Wi-Fi
+Each have different trade-offs ... accuracy, speed, battery
+Movement requires re-estimation of location often and may require you to change service
+It is not always the most recent that is the most accurate, sometimes sources that are a few seconds older are still more accurate

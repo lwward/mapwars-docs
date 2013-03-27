@@ -1,0 +1,29 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{G}\relax \glsresetentrylist %
+\glossaryentryfield{gcm}{\glsnamefont{GCM}}{Google Cloud Messaging for Android}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{5\delimN 6}\delimN 
+		\setentrycounter{page}\glsnumberformat{8}}}\glsgroupskip
+\glsgroupheading{M}\relax \glsresetentrylist %
+\glossaryentryfield{mmo}{\glsnamefont{MMO}}{massively multiplayer online}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{2}\delimN 
+		\setentrycounter{page}\glsnumberformat{5}\delimN 
+		\setentrycounter{page}\glsnumberformat{8}}}%
+\glossaryentryfield{mmorpg}{\glsnamefont{MMORPG}}{massively multiplayer online role playing game}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{2}\delimN 
+		\setentrycounter{page}\glsnumberformat{8}}}\glsgroupskip
+\glsgroupheading{R}\relax \glsresetentrylist %
+\glossaryentryfield{rest}{\glsnamefont{REST}}{REpresentational State Transfer}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{5}\delimN 
+		\setentrycounter{page}\glsnumberformat{8}}}%
+\glossaryentryfield{rts}{\glsnamefont{RTS}}{real-time strategy}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{1\delimR 3}\delimN 
+		\setentrycounter{page}\glsnumberformat{8}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossaryentryfield{sdk}{\glsnamefont{SDK}}{software development kit}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{3\delimN 4}\delimN 
+		\setentrycounter{page}\glsnumberformat{7\delimN 8}}}\glsgroupskip
+\glsgroupheading{V}\relax \glsresetentrylist %
+\glossaryentryfield{vps}{\glsnamefont{VPS}}{virtual private server}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{7\delimN 8}}}%
+\end{theglossary}\glossarypostamble
