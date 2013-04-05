@@ -25,11 +25,17 @@
 % Use the cite package if you are using the numeric style (e.g. IEEEannot). 
 % Use the natbib package if you are using the author-date style (e.g. authordate2annot). 
 % Only use one of these and comment out the other one. 
-%\usepackage{cite}
-\usepackage{natbib}
+\usepackage{cite}
+%\usepackage{natbib}
+\usepackage[acronym,toc]{glossaries}
 
 % Use the following to selectively exclude chapters
 %\includeonly{cover,abstract,acknowledge,declare,chapter1,chapter2}
+
+
+\newacronym{rts}{RTS}{real-time strategy}
+
+
 
 \begin{document}
 
@@ -48,7 +54,7 @@
 % declarations of originality 
 \include{declaration}               
 
-\include{acknowledgements} % Acknowledgements
+% \include{acknowledgements} % Acknowledgements
 \include{abstract}                 % Abstract
 
 \pagenumbering{roman}
@@ -71,13 +77,12 @@
 \setchapterheaderfooter
 
 % include the chapters
-\include{Chapter1/chapter1}
+\include{Background/Background}
 \include{Chapter2/chapter2}
-\include{Chapter3/chapter3}
+\include{Design/Design}
 \include{Implementation/Implementation}
 \include{Chapter5/chapter5}
 \include{Chapter6/chapter6}
-\include{Chapter7/chapter7}
 % add any additional chapters here
 
 \setemptyheader
@@ -105,7 +110,6 @@
 
 % include any appendices here
 \include{Appendix1/appendix1}
-\include{Appendix2/appendix2}
 
 \fancypagestyle{plain}{%
    \fancyhead{} %[C]{Annotated Bibliography}
@@ -123,8 +127,8 @@
 
 %
 % example of including an annotated bibliography. The current style is an author date one. If you want to change, comment out the line and uncomment the subsequent line. You should also modify the packages included at the top (see the notes earlier in the file) and then trash your aux files and re-run. 
-\bibliographystyle{authordate2annot}
-%\bibliographystyle{IEEEannot}
+%\bibliographystyle{authordate2annot}
+\bibliographystyle{IEEEannot}
 \renewcommand{\bibname}{Annotated Bibliography} 
 \bibliography{References/references} % References file
 

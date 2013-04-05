@@ -1,0 +1,1 @@
+pdflatex dissertation.tex && pdflatex dissertation.tex && echo && texcount -merge dissertation.tex | grep "Words in text"
