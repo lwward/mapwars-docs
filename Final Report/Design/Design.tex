@@ -1,14 +1,10 @@
 \chapter{Design}
-You should concentrate on the more important aspects of the design. It is essential that an overview is presented before going into detail. As well as describing the design adopted it must also explain what other designs were considered and why they were rejected.
 
-The design should describe what you expected to do, and might also explain areas that you had to revise after some investigation.
-
-Typically, for an object-oriented design, the discussion will focus on the choice of objects and classes and the allocation of methods to classes. The use made of reusable components should be described and their source referenced. Particularly important decisions concerning data structures usually affect the architecture of a system and so should be described here.
-
-How much material you include on detailed design and implementation will depend very much on the nature of the project. It should not be padded out. Think about the significant aspects of your system. For example, describe the design of the user interface if it is a critical aspect of your system, or provide detail about methods and data structures that are not trivial. Do not spend time on long lists of trivial items and repetitive descriptions. If in doubt about what is appropriate, speak to your supervisor.
 
 
 \section{Overall Architecture}
+
+
 
 \section{Mapping}
 The central component of the application was going to be a map. For this reason it was vitally important that an appropriate mapping solution was used.
@@ -41,5 +37,22 @@ Tiles could be loaded from MapBox using a standard URI syntax used by the most t
 MapBox did not offer satellite imagery but the beauty and simplicity of the maps being used made up for this. It was also decided that the complexity of such maps would just present the same images as found with the default OSM tiles. Satellite images could always be added to OSMDroid by simply finding a tile source and using that and would have no affect on the functionality of the application. 
 
 \section{User Interface}
+When developing any application for a small form factor it is important to consider how the user interface can be minimized, and to not clutter the display making precise controls difficult. This is especially important when trying to fit all the functionality of a \gls{rts} game within the small form factor of a mobile device. To get around this problem only the essential controls will be included with only a portion of these being accessible from the main game screen.
 
-\section{Other relevant sections}
+\begin{figure}[H]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{Images/maps-google.png}
+  \captionof{figure}{Insert design of game map}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{Images/maps-google.png}
+  \captionof{figure}{Insert design of game map menu}
+  \label{fig:test2}
+\end{minipage}
+\end{figure}
+
+ Figure \ref{fig:test2}
