@@ -21,21 +21,16 @@
 \bibitem{smartphone_market}
 comScore, ``{comScore Reports February 2013 U.S. Smartphone Subscriber Market
   Share},''
-  \url{http://www.comscore.com/Insights/Press_Releases/2013/4/comScore_Reports_February_2013_U.S._Smartphone_Subscriber_Market_Share},
-  2013.
+  \url{http://www.comscore.com/Insights/Press_Releases/2013/4/comScore_Reports%
+_February_2013_U.S._Smartphone_Subscriber_Market_Share}, 2013.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 
-\bibitem{HannahsPaper}
-H.~M. Dee and D.~C. Hogg, ``Navigational strategies in behaviour modelling,''
-  vol. 173(2), pp. 329--342, 2009.
+\bibitem{mapquest_example}
+MapQuest, ``{Android Maps API: Developer's Guide},''
+  \url{http://developer.mapquest.com/web/products/featured/android-maps-api/do%
+cumentation}.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
-
-\bibitem{NumericalRecipes}
-W.~Press \emph{et~al.}, \emph{{Numerical recipes in C}}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Cambridge University Press Cambridge, 1992, pp. 349--361.
- \begin{quotation}\noindent This is my annotation. I can add in comments that
-  are in \textbf{bold} and \em{italics} and then other content. \end{quotation}
 
 \end{thebibliography}

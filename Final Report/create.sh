@@ -1,1 +1,1 @@
-pdflatex dissertation.tex && pdflatex dissertation.tex && echo && texcount -merge dissertation.tex | grep "Words in text"
+pdflatex dissertation.tex && bibtex dissertation.aux && pdflatex dissertation.tex && pdflatex dissertation.tex && echo && texcount -merge dissertation.tex | grep "Words in text"

@@ -14,16 +14,24 @@
 \contentsline {subsection}{\numberline {3.2.3}MapBox}{5}
 \contentsline {section}{\numberline {3.3}User Interface}{5}
 \contentsline {chapter}{\numberline {4}Implementation}{7}
-\contentsline {chapter}{\numberline {5}Testing}{8}
-\contentsline {section}{\numberline {5.1}Overall Approach to Testing}{8}
-\contentsline {section}{\numberline {5.2}Automated Testing}{8}
-\contentsline {subsection}{\numberline {5.2.1}Unit Tests}{8}
-\contentsline {subsection}{\numberline {5.2.2}User Interface Testing}{8}
-\contentsline {subsection}{\numberline {5.2.3}Stress Testing}{8}
-\contentsline {subsection}{\numberline {5.2.4}Other types of testing}{8}
-\contentsline {section}{\numberline {5.3}Integration Testing}{8}
-\contentsline {section}{\numberline {5.4}User Testing}{8}
-\contentsline {chapter}{\numberline {6}Evaluation}{9}
-\contentsline {chapter}{Appendices}{10}
-\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{11}
-\contentsline {chapter}{Annotated Bibliography}{12}
+\contentsline {section}{\numberline {4.1}Client Implementation}{7}
+\contentsline {subsection}{\numberline {4.1.1}Mapping \& Location}{7}
+\contentsline {subsection}{\numberline {4.1.2}Communication}{8}
+\contentsline {subsection}{\numberline {4.1.3}Units}{8}
+\contentsline {section}{\numberline {4.2}Server Implementation}{8}
+\contentsline {subsection}{\numberline {4.2.1}Echo}{8}
+\contentsline {subsection}{\numberline {4.2.2}Units}{8}
+\contentsline {subsection}{\numberline {4.2.3}AI}{8}
+\contentsline {chapter}{\numberline {5}Testing}{9}
+\contentsline {section}{\numberline {5.1}Overall Approach to Testing}{9}
+\contentsline {section}{\numberline {5.2}Automated Testing}{9}
+\contentsline {subsection}{\numberline {5.2.1}Unit Tests}{9}
+\contentsline {subsection}{\numberline {5.2.2}User Interface Testing}{9}
+\contentsline {subsection}{\numberline {5.2.3}Stress Testing}{9}
+\contentsline {subsection}{\numberline {5.2.4}Other types of testing}{9}
+\contentsline {section}{\numberline {5.3}Integration Testing}{9}
+\contentsline {section}{\numberline {5.4}User Testing}{9}
+\contentsline {chapter}{\numberline {6}Evaluation}{10}
+\contentsline {chapter}{Appendices}{11}
+\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{12}
+\contentsline {chapter}{Annotated Bibliography}{13}

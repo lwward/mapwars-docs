@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  6 APR 2013 18:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  7 APR 2013 12:18
 entering extended mode
  %&-line parsing enabled.
 **dissertation.tex
@@ -136,6 +136,34 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box32
 )
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
+\lst@mode=\count102
+\lst@gtempboxa=\box33
+\lst@token=\toks22
+\lst@length=\count103
+\lst@currlwidth=\dimen114
+\lst@column=\count104
+\lst@pos=\count105
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count106
+\lst@lineno=\count107
+\lst@maxwidth=\dimen117
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count108
+\lst@skipnumbers=\count109
+\lst@framebox=\box34
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
 (/usr/share/texmf-texlive/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -173,9 +201,9 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
 (/usr/share/texmf-texlive/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
-\XKV@depth=\count102
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+\XKV@depth=\count110
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
 (/usr/share/texmf-texlive/tex/latex/glossaries/base/mfirstuc.sty
@@ -184,8 +212,8 @@ Package: mfirstuc 2008/12/22 v1.03 (NLCT)
 (/usr/share/texmf-texlive/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-\gls@level=\count103
-\@gls@tmpb=\toks24
+\gls@level=\count111
+\@gls@tmpb=\toks25
 \gls@tmplen=\skip55
 \istfile=\write3
 
@@ -205,17 +233,17 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip58
 \LTpre=\skip59
 \LTpost=\skip60
-\LTchunksize=\count104
-\LTcapwidth=\dimen114
-\LT@head=\box33
-\LT@firsthead=\box34
-\LT@foot=\box35
-\LT@lastfoot=\box36
-\LT@cols=\count105
-\LT@rows=\count106
-\c@LT@tables=\count107
-\c@LT@chunks=\count108
-\LT@p@ftn=\toks25
+\LTchunksize=\count112
+\LTcapwidth=\dimen118
+\LT@head=\box35
+\LT@firsthead=\box36
+\LT@foot=\box37
+\LT@lastfoot=\box38
+\LT@cols=\count113
+\LT@rows=\count114
+\c@LT@tables=\count115
+\c@LT@chunks=\count116
+\LT@p@ftn=\toks26
 )
 \glsdescwidth=\skip61
 \glspagelistwidth=\skip62
@@ -225,22 +253,22 @@ Package: glossary-super 2009/05/30 v2.01 (NLCT)
 
 (/usr/share/texmf-texlive/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count109
-\ST@wd=\dimen115
+\c@tracingst=\count117
+\ST@wd=\dimen119
 \ST@rightskip=\skip63
 \ST@leftskip=\skip64
 \ST@parfillskip=\skip65
-\ST@pageleft=\dimen116
-\ST@headht=\dimen117
-\ST@tailht=\dimen118
-\ST@pagesofar=\dimen119
-\ST@pboxht=\dimen120
-\ST@lineht=\dimen121
-\ST@stretchht=\dimen122
-\ST@prevht=\dimen123
-\ST@toadd=\dimen124
-\ST@dimen=\dimen125
-\ST@pbox=\box37
+\ST@pageleft=\dimen120
+\ST@headht=\dimen121
+\ST@tailht=\dimen122
+\ST@pagesofar=\dimen123
+\ST@pboxht=\dimen124
+\ST@lineht=\dimen125
+\ST@stretchht=\dimen126
+\ST@prevht=\dimen127
+\ST@toadd=\dimen128
+\ST@dimen=\dimen129
+\ST@pbox=\box39
 ))
 (/usr/share/texmf-texlive/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2009/01/14 v1.01 (NLCT)
@@ -251,15 +279,16 @@ Package: caption 2009/10/09 v3.1k Customizing captions (AR)
 
 (/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
 Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
-\captionmargin=\dimen126
-\captionmargin@=\dimen127
-\captionwidth=\dimen128
-\caption@indent=\dimen129
-\caption@parindent=\dimen130
-\caption@hangindent=\dimen131
+\captionmargin=\dimen130
+\captionmargin@=\dimen131
+\captionwidth=\dimen132
+\caption@indent=\dimen133
+\caption@parindent=\dimen134
+\caption@hangindent=\dimen135
 )
-\c@ContinuedFloat=\count110
+\c@ContinuedFloat=\count118
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 (/usr/share/texmf-texlive/tex/latex/caption/ltcaption.sty
@@ -269,8 +298,8 @@ Package caption Info: supertabular package is loaded.
 )
 (/usr/share/texmf-texlive/tex/latex/caption/subcaption.sty
 Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
-\c@subfigure=\count111
-\c@subtable=\count112
+\c@subfigure=\count119
+\c@subtable=\count120
 ) (./dissertation.aux (./cover.aux) (./declaration.aux) (./abstract.aux)
 (./Background/Background.aux) (./Chapter2/chapter2.aux) (./Design/Design.aux)
 (./Implementation/Implementation.aux) (./Chapter5/chapter5.aux)
@@ -296,17 +325,18 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen132
-\scratchbox=\box38
-\nofMPsegments=\count114
-\nofMParguments=\count115
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen133
-\MPnumerator=\count117
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count121
+\scratchdimen=\dimen136
+\scratchbox=\box40
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen137
+\MPnumerator=\count125
+\everyMPtoPDFconversion=\toks28
 )
+\c@lstlisting=\count126
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \openout2 = `cover.aux'.
@@ -420,16 +450,26 @@ File: Images/maps-google.png Graphic file (type png)
 
  (./Implementation/Implementation.tex
 Chapter 4.
-) [7
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 13.
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10> not available
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 26.
+ [7
 
 
 
 ]
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 32.
+) [8]
 \openout2 = `Chapter5/chapter5.aux'.
 
- (./Chapter5/chapter5.tex
+
+(./Chapter5/chapter5.tex
 Chapter 5.
-) [8
+) [9
 
 
 
@@ -438,11 +478,11 @@ Chapter 5.
 
  (./Chapter6/chapter6.tex
 Chapter 6.
-) [9
+) [10
 
 
 
-] [10
+] [11
 
 
 ]
@@ -450,7 +490,7 @@ Chapter 6.
 
  (./Appendix1/appendix1.tex
 Appendix A.
-) [11
+) [12
 
 
 ] (./dissertation.bbl
@@ -465,7 +505,7 @@ Underfull \hbox (badness 5652) in paragraph at lines 22--26
 ress[]Releases / 2013 / 4 / comScore[]Reports[]
  []
 
-) AED: lastpage setting LastPage [12
+) AED: lastpage setting LastPage [13
 
 
 ]
@@ -482,22 +522,24 @@ This document will not have a glossary.
 (./Implementation/Implementation.aux) (./Chapter5/chapter5.aux)
 (./Chapter6/chapter6.aux) (./Appendix1/appendix1.aux)) ) 
 Here is how much of TeX's memory you used:
- 4853 strings out of 495061
- 68560 string characters out of 1182620
- 144598 words of memory out of 3000000
- 7854 multiletter control sequences out of 15000+50000
- 26504 words of font info for 57 fonts, out of 3000000 for 9000
+ 6197 strings out of 495061
+ 88091 string characters out of 1182620
+ 172498 words of memory out of 3000000
+ 9173 multiletter control sequences out of 15000+50000
+ 28658 words of font info for 64 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 53i,10n,92p,1081b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,11n,92p,1081b,1711s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texli
 ve/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb>
-</usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-te
-xlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on dissertation.pdf (18 pages, 2615732 bytes).
+fonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrb8a.pf
+b></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texm
+f-texlive/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-texlive/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8
+a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
+xmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (19 pages, 2652998 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
