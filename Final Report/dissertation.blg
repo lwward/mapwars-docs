@@ -4,7 +4,7 @@ A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: Background/Background.aux
-A level-1 auxiliary file: Chapter2/chapter2.aux
+A level-1 auxiliary file: Process/Process.aux
 A level-1 auxiliary file: Design/Design.aux
 A level-1 auxiliary file: Implementation/Implementation.aux
 A level-1 auxiliary file: Chapter5/chapter5.aux
@@ -19,44 +19,44 @@ Database file #1: References/references.bib
 ** Sorting version - not for use with work to be submitted to the IEEE.
 
 Done.
-You've used 2 entries,
+You've used 3 entries,
             4538 wiz_defined-function locations,
-            905 strings with 8571 characters,
-and the built_in function-call counts, 952 in all, are:
-= -- 75
-> -- 14
-< -- 0
-+ -- 6
-- -- 4
-* -- 47
-:= -- 178
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 8
-chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 65
-empty$ -- 82
-format.name$ -- 4
-if$ -- 183
+            912 strings with 8665 characters,
+and the built_in function-call counts, 1779 in all, are:
+= -- 155
+> -- 26
+< -- 8
++ -- 14
+- -- 6
+* -- 86
+:= -- 314
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 12
+chr.to.int$ -- 15
+cite$ -- 3
+duplicate$ -- 121
+empty$ -- 140
+format.name$ -- 6
+if$ -- 370
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 14
-newline$ -- 28
-num.names$ -- 4
-pop$ -- 45
+int.to.str$ -- 3
+missing$ -- 22
+newline$ -- 32
+num.names$ -- 6
+pop$ -- 57
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 9
 quote$ -- 2
-skip$ -- 67
+skip$ -- 134
 stack$ -- 0
-substring$ -- 12
-swap$ -- 32
-text.length$ -- 0
+substring$ -- 54
+swap$ -- 79
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 16
+type$ -- 25
 warning$ -- 0
-while$ -- 4
-width$ -- 3
-write$ -- 36
+while$ -- 9
+width$ -- 4
+write$ -- 48

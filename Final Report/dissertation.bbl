@@ -18,6 +18,11 @@
 \fi
 #2}}
 
+\bibitem{spiral_model}
+B.~Boehm, ``A spiral model of software development and enhancement,''
+  \emph{Computer}, vol.~21, no.~5, pp. 61--72, 1988.
+
+
 \bibitem{smartphone_market}
 comScore, ``{comScore Reports February 2013 U.S. Smartphone Subscriber Market
   Share},''

@@ -1,52 +1,18 @@
 \chapter{Implementation}
 The project was split into two entirely separate parts, the server and the client. 
 
-Development on the Android platform restricts development to Java using the Android SDK. It was decided to use the Eclipse IDE as the main editor partly due to it's popularity and abundance of information and also it's improved integration with the SDK. Google provide an Eclipse plugin called Android Development Tools (ADT) which provide a set of tools to streamline the development process. 
+
 
 
 \section{Client Implementation}
 
 
 \subsection{Mapping \& Location}
-Work started by getting a working map by implementing the MapQuest API. Inclusion of the MapQuest maps was effortless and straight forward. The supplied JAR file was placed in a folder called libs and then added to the projects build path. From here adding a map to the screen follows the same procedure as adding any element. An example of such code is shown in Listing \ref{lst:myListing}. As the intended use was for open data and services there was no need to register for and include an application key. If licensed data was to be used then a valid key should be added to the component using the android:apiKey attribute.
+The initial investigation into both mapping and determining the users location. 
 
-\begin{lstlisting}[caption={Basic MapQuest usage (Adapted from \cite{mapquest_example})},label={lst:myListing}]
-<com.mapquest.android.maps.MapView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/map"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:apiKey=""
-  />
-\end{lstlisting}
-
-From here the activity using this layout needs to extend MapActivity
-
-\begin{lstlisting}[caption={Basic MapQuest usage (Adapted from \cite{mapquest_example})},label={lst:myListing2}]
-public class MyBasicMap extends MapActivity {
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-
-		// set the zoom level, center point and enable the default zoom controls 
-		MapView map = (MapView) findViewById(R.id.map);
-		map.getController().setZoom(9);
-		map.getController().setCenter(new GeoPoint(38.892155,-77.036195));
-		map.setBuiltInZoomControls(true);
-	}
-
-	// return false since no route is being displayed 
-	@Override
-	public boolean isRouteDisplayed() {
-		return false;
-	}
-}
-\end{lstlisting}
-
-This was 
 
 \subsection{Communication}
+
 
 
 \subsection{Units}
