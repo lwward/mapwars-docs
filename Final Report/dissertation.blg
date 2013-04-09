@@ -7,8 +7,8 @@ A level-1 auxiliary file: Background/Background.aux
 A level-1 auxiliary file: Process/Process.aux
 A level-1 auxiliary file: Design/Design.aux
 A level-1 auxiliary file: Implementation/Implementation.aux
-A level-1 auxiliary file: Chapter5/chapter5.aux
-A level-1 auxiliary file: Chapter6/chapter6.aux
+A level-1 auxiliary file: Testing/Testing.aux
+A level-1 auxiliary file: Evaluation/Evaluation.aux
 A level-1 auxiliary file: Appendix1/appendix1.aux
 The style file: IEEEannot.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
@@ -21,7 +21,7 @@ Database file #1: References/references.bib
 Done.
 You've used 3 entries,
             4538 wiz_defined-function locations,
-            912 strings with 8665 characters,
+            912 strings with 8667 characters,
 and the built_in function-call counts, 1779 in all, are:
 = -- 155
 > -- 26

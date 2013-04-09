@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  7 APR 2013 19:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  9 APR 2013 13:31
 entering extended mode
  %&-line parsing enabled.
 **dissertation.tex
@@ -302,8 +302,8 @@ Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
 \c@subtable=\count120
 ) (./dissertation.aux (./cover.aux) (./declaration.aux) (./abstract.aux)
 (./Background/Background.aux) (./Process/Process.aux) (./Design/Design.aux)
-(./Implementation/Implementation.aux) (./Chapter5/chapter5.aux)
-(./Chapter6/chapter6.aux) (./Appendix1/appendix1.aux))
+(./Implementation/Implementation.aux) (./Testing/Testing.aux)
+(./Evaluation/Evaluation.aux) (./Appendix1/appendix1.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -393,22 +393,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 ] (./dissertation.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)
+ [1
+
+])
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [1
-
-] (./dissertation.lof)
+ [2] (./dissertation.lof)
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
 
-[2] (./dissertation.lot)
+[3] (./dissertation.lot)
 \tf@lot=\write6
 \openout6 = `dissertation.lot'.
 
- [3]
+ [4]
 \openout2 = `Background/Background.aux'.
 
  (./Background/Background.tex
@@ -417,12 +417,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 [1
 
 
 ]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
@@ -438,48 +438,48 @@ Chapter 2.
 
 
 
-]) [4] [5]
+]) [4]
 \openout2 = `Design/Design.aux'.
 
  (./Design/Design.tex
 Chapter 3.
-[6
+[5
 
 
 
-] <Images/maps-google.png, id=44, 1152.305pt x 2001.4775pt>
+] [6] <Images/maps-google.png, id=48, 1152.305pt x 2001.4775pt>
 File: Images/maps-google.png Graphic file (type png)
 
 <use Images/maps-google.png>
 File: Images/maps-google.png Graphic file (type png)
- <use Images/maps-google.png> [7]) [8 <./Images/maps-google.png>]
+ <use Images/maps-google.png>) [7 <./Images/maps-google.png>]
 \openout2 = `Implementation/Implementation.aux'.
 
  (./Implementation/Implementation.tex
 Chapter 4.
+) [8
+
+
+
+]
+\openout2 = `Testing/Testing.aux'.
+
+ (./Testing/Testing.tex
+Chapter 5.
 ) [9
 
 
 
 ]
-\openout2 = `Chapter5/chapter5.aux'.
+\openout2 = `Evaluation/Evaluation.aux'.
 
- (./Chapter5/chapter5.tex
-Chapter 5.
+ (./Evaluation/Evaluation.tex
+Chapter 6.
 ) [10
 
 
 
-]
-\openout2 = `Chapter6/chapter6.aux'.
-
- (./Chapter6/chapter6.tex
-Chapter 6.
-) [11
-
-
-
-] [12
+] [11
 
 
 ]
@@ -487,7 +487,7 @@ Chapter 6.
 
  (./Appendix1/appendix1.tex
 Appendix A.
-) [13
+) [12
 
 
 ] (./dissertation.bbl
@@ -502,7 +502,7 @@ Underfull \hbox (badness 5652) in paragraph at lines 27--31
 ress[]Releases / 2013 / 4 / comScore[]Reports[]
  []
 
-) AED: lastpage setting LastPage [14
+) AED: lastpage setting LastPage [13
 
 
 ]
@@ -516,23 +516,23 @@ This document will not have a glossary.
 
 (./dissertation.aux (./cover.aux) (./declaration.aux) (./abstract.aux)
 (./Background/Background.aux) (./Process/Process.aux) (./Design/Design.aux)
-(./Implementation/Implementation.aux) (./Chapter5/chapter5.aux)
-(./Chapter6/chapter6.aux) (./Appendix1/appendix1.aux)) ) 
+(./Implementation/Implementation.aux) (./Testing/Testing.aux)
+(./Evaluation/Evaluation.aux) (./Appendix1/appendix1.aux)) ) 
 Here is how much of TeX's memory you used:
  6060 strings out of 495061
- 86424 string characters out of 1182620
- 166478 words of memory out of 3000000
+ 86440 string characters out of 1182620
+ 167477 words of memory out of 3000000
  9045 multiletter control sequences out of 15000+50000
  26504 words of font info for 57 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 53i,10n,92p,1474b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texli
-ve/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb>
-</usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-te
-xlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on dissertation.pdf (20 pages, 2622119 bytes).
+ 53i,11n,92p,1474b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-t
+exlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.
+pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texm
+f-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (20 pages, 2622360 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
