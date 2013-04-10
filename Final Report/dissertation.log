@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  9 APR 2013 13:31
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  9 APR 2013 15:29
 entering extended mode
  %&-line parsing enabled.
 **dissertation.tex
@@ -423,41 +423,46 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+ <Images/android_ios.png, id=32, 413.6253pt x 397.485pt>
+File: Images/android_ios.png Graphic file (type png)
+
+<use Images/android_ios.png> [2 <./Images/android_ios.png (PNG copy)>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-) [2]
+ [3])
+[4]
 \openout2 = `Process/Process.aux'.
 
  (./Process/Process.tex
 Chapter 2.
-[3
-
-
-
-]) [4]
-\openout2 = `Design/Design.aux'.
-
- (./Design/Design.tex
-Chapter 3.
 [5
 
 
 
-] [6] <Images/maps-google.png, id=48, 1152.305pt x 2001.4775pt>
+]) [6]
+\openout2 = `Design/Design.aux'.
+
+ (./Design/Design.tex
+Chapter 3.
+[7
+
+
+
+] [8] <Images/maps-google.png, id=55, 1152.305pt x 2001.4775pt>
 File: Images/maps-google.png Graphic file (type png)
 
 <use Images/maps-google.png>
 File: Images/maps-google.png Graphic file (type png)
- <use Images/maps-google.png>) [7 <./Images/maps-google.png>]
+ <use Images/maps-google.png>) [9 <./Images/maps-google.png>]
 \openout2 = `Implementation/Implementation.aux'.
 
  (./Implementation/Implementation.tex
 Chapter 4.
-) [8
+) [10
 
 
 
@@ -466,7 +471,7 @@ Chapter 4.
 
  (./Testing/Testing.tex
 Chapter 5.
-) [9
+) [11
 
 
 
@@ -475,11 +480,11 @@ Chapter 5.
 
  (./Evaluation/Evaluation.tex
 Chapter 6.
-) [10
+) [12
 
 
 
-] [11
+] [13
 
 
 ]
@@ -487,7 +492,7 @@ Chapter 6.
 
  (./Appendix1/appendix1.tex
 Appendix A.
-) [12
+) [14
 
 
 ] (./dissertation.bbl
@@ -502,7 +507,7 @@ Underfull \hbox (badness 5652) in paragraph at lines 27--31
 ress[]Releases / 2013 / 4 / comScore[]Reports[]
  []
 
-) AED: lastpage setting LastPage [13
+) AED: lastpage setting LastPage [15
 
 
 ]
@@ -519,10 +524,10 @@ This document will not have a glossary.
 (./Implementation/Implementation.aux) (./Testing/Testing.aux)
 (./Evaluation/Evaluation.aux) (./Appendix1/appendix1.aux)) ) 
 Here is how much of TeX's memory you used:
- 6060 strings out of 495061
- 86440 string characters out of 1182620
- 167477 words of memory out of 3000000
- 9045 multiletter control sequences out of 15000+50000
+ 6067 strings out of 495061
+ 86574 string characters out of 1182620
+ 167492 words of memory out of 3000000
+ 9051 multiletter control sequences out of 15000+50000
  26504 words of font info for 57 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  53i,11n,92p,1474b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -532,9 +537,9 @@ exlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public
 pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texm
 f-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (20 pages, 2622360 bytes).
+Output written on dissertation.pdf (22 pages, 2746103 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,54 +1,54 @@
 \contentsline {chapter}{\numberline {1}Background \& Ojectives}{1}
 \contentsline {section}{\numberline {1.1}Background}{1}
 \contentsline {section}{\numberline {1.2}Market}{1}
-\contentsline {subsection}{\numberline {1.2.1}Android OS}{2}
-\contentsline {subsection}{\numberline {1.2.2}RTS Games}{2}
-\contentsline {section}{\numberline {1.3}Objectives}{2}
-\contentsline {subsection}{\numberline {1.3.1}Primary Objectives}{2}
-\contentsline {subsection}{\numberline {1.3.2}Expanded Objectives}{2}
-\contentsline {subsection}{\numberline {1.3.3}Limitations \& Evaluation}{2}
-\contentsline {chapter}{\numberline {2}Development Process}{3}
-\contentsline {section}{\numberline {2.1}Introduction}{3}
-\contentsline {section}{\numberline {2.2}Modifications}{3}
-\contentsline {section}{\numberline {2.3}Development Environment}{4}
-\contentsline {subsection}{\numberline {2.3.1}Language}{4}
-\contentsline {subsection}{\numberline {2.3.2}Deveopment Environment}{4}
-\contentsline {subsection}{\numberline {2.3.3}Hardware}{4}
-\contentsline {subsection}{\numberline {2.3.4}Other tools}{4}
-\contentsline {chapter}{\numberline {3}Design}{5}
-\contentsline {section}{\numberline {3.1}Overall Architecture}{5}
-\contentsline {section}{\numberline {3.2}Data Structures}{5}
-\contentsline {section}{\numberline {3.3}Class Diagram}{5}
-\contentsline {section}{\numberline {3.4}Use Case Diagram}{5}
-\contentsline {section}{\numberline {3.5}Mapping}{5}
-\contentsline {subsection}{\numberline {3.5.1}Google}{5}
-\contentsline {subsection}{\numberline {3.5.2}OpenStreet Map}{5}
-\contentsline {subsection}{\numberline {3.5.3}MapBox}{6}
-\contentsline {section}{\numberline {3.6}User Interface}{7}
-\contentsline {chapter}{\numberline {4}Implementation}{8}
-\contentsline {section}{\numberline {4.1}Client Implementation}{8}
-\contentsline {subsection}{\numberline {4.1.1}Mapping \& Location}{8}
-\contentsline {subsection}{\numberline {4.1.2}Communication}{8}
-\contentsline {subsection}{\numberline {4.1.3}Units}{8}
-\contentsline {section}{\numberline {4.2}Server Implementation}{8}
-\contentsline {subsection}{\numberline {4.2.1}Echo}{8}
-\contentsline {subsection}{\numberline {4.2.2}Units}{8}
-\contentsline {subsection}{\numberline {4.2.3}AI}{8}
-\contentsline {chapter}{\numberline {5}Testing}{9}
-\contentsline {section}{\numberline {5.1}Overall Approach to Testing}{9}
-\contentsline {section}{\numberline {5.2}Automated Testing}{9}
-\contentsline {subsection}{\numberline {5.2.1}Unit Tests}{9}
-\contentsline {subsection}{\numberline {5.2.2}User Interface Testing}{9}
-\contentsline {subsection}{\numberline {5.2.3}Stress Testing}{9}
-\contentsline {subsection}{\numberline {5.2.4}Other types of testing}{9}
-\contentsline {section}{\numberline {5.3}Integration Testing}{9}
-\contentsline {section}{\numberline {5.4}User Testing}{9}
-\contentsline {chapter}{\numberline {6}Evaluation}{10}
-\contentsline {section}{\numberline {6.1}Primary \& Secondary Objectives}{10}
-\contentsline {section}{\numberline {6.2}Critical Evaluation}{10}
-\contentsline {subsection}{\numberline {6.2.1}Known Bugs}{10}
-\contentsline {subsection}{\numberline {6.2.2}Improvements}{10}
-\contentsline {section}{\numberline {6.3}Summary}{10}
-\contentsline {chapter}{Appendices}{11}
-\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{12}
-\contentsline {chapter}{Annotated Bibliography}{13}
+\contentsline {subsection}{\numberline {1.2.1}Choosing a platform}{2}
+\contentsline {subsection}{\numberline {1.2.2}Android RTS Games}{3}
+\contentsline {section}{\numberline {1.3}Objectives}{3}
+\contentsline {subsection}{\numberline {1.3.1}Primary Objectives}{3}
+\contentsline {subsection}{\numberline {1.3.2}Expanded Objectives}{4}
+\contentsline {subsection}{\numberline {1.3.3}Limitations \& Evaluation}{4}
+\contentsline {chapter}{\numberline {2}Development Process}{5}
+\contentsline {section}{\numberline {2.1}Introduction}{5}
+\contentsline {section}{\numberline {2.2}Modifications}{5}
+\contentsline {section}{\numberline {2.3}Development Environment}{6}
+\contentsline {subsection}{\numberline {2.3.1}Language}{6}
+\contentsline {subsection}{\numberline {2.3.2}Deveopment Environment}{6}
+\contentsline {subsection}{\numberline {2.3.3}Hardware}{6}
+\contentsline {subsection}{\numberline {2.3.4}Other tools}{6}
+\contentsline {chapter}{\numberline {3}Design}{7}
+\contentsline {section}{\numberline {3.1}Overall Architecture}{7}
+\contentsline {section}{\numberline {3.2}Data Structures}{7}
+\contentsline {section}{\numberline {3.3}Class Diagram}{7}
+\contentsline {section}{\numberline {3.4}Use Case Diagram}{7}
+\contentsline {section}{\numberline {3.5}Mapping}{7}
+\contentsline {subsection}{\numberline {3.5.1}Google}{7}
+\contentsline {subsection}{\numberline {3.5.2}OpenStreet Map}{7}
+\contentsline {subsection}{\numberline {3.5.3}MapBox}{8}
+\contentsline {section}{\numberline {3.6}User Interface}{9}
+\contentsline {chapter}{\numberline {4}Implementation}{10}
+\contentsline {section}{\numberline {4.1}Client Implementation}{10}
+\contentsline {subsection}{\numberline {4.1.1}Mapping \& Location}{10}
+\contentsline {subsection}{\numberline {4.1.2}Communication}{10}
+\contentsline {subsection}{\numberline {4.1.3}Units}{10}
+\contentsline {section}{\numberline {4.2}Server Implementation}{10}
+\contentsline {subsection}{\numberline {4.2.1}Echo}{10}
+\contentsline {subsection}{\numberline {4.2.2}Units}{10}
+\contentsline {subsection}{\numberline {4.2.3}AI}{10}
+\contentsline {chapter}{\numberline {5}Testing}{11}
+\contentsline {section}{\numberline {5.1}Overall Approach to Testing}{11}
+\contentsline {section}{\numberline {5.2}Automated Testing}{11}
+\contentsline {subsection}{\numberline {5.2.1}Unit Tests}{11}
+\contentsline {subsection}{\numberline {5.2.2}User Interface Testing}{11}
+\contentsline {subsection}{\numberline {5.2.3}Stress Testing}{11}
+\contentsline {subsection}{\numberline {5.2.4}Other types of testing}{11}
+\contentsline {section}{\numberline {5.3}Integration Testing}{11}
+\contentsline {section}{\numberline {5.4}User Testing}{11}
+\contentsline {chapter}{\numberline {6}Evaluation}{12}
+\contentsline {section}{\numberline {6.1}Primary \& Secondary Objectives}{12}
+\contentsline {section}{\numberline {6.2}Critical Evaluation}{12}
+\contentsline {subsection}{\numberline {6.2.1}Known Bugs}{12}
+\contentsline {subsection}{\numberline {6.2.2}Improvements}{12}
+\contentsline {section}{\numberline {6.3}Summary}{12}
+\contentsline {chapter}{Appendices}{13}
+\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{14}
+\contentsline {chapter}{Annotated Bibliography}{15}
