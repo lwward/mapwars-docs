@@ -1,20 +1,17 @@
 \contentsline {chapter}{\numberline {1}Background \& Ojectives}{1}
 \contentsline {section}{\numberline {1.1}Background}{1}
-\contentsline {section}{\numberline {1.2}Market}{1}
+\contentsline {section}{\numberline {1.2}Market}{2}
 \contentsline {subsection}{\numberline {1.2.1}Choosing a platform}{2}
-\contentsline {subsection}{\numberline {1.2.2}Android RTS Games}{3}
+\contentsline {subsection}{\numberline {1.2.2}Android RTS Games}{4}
 \contentsline {section}{\numberline {1.3}Objectives}{5}
-\contentsline {subsection}{\numberline {1.3.1}Primary Objectives}{5}
+\contentsline {subsection}{\numberline {1.3.1}Primary Objectives}{6}
 \contentsline {subsection}{\numberline {1.3.2}Expanded Objectives}{6}
-\contentsline {subsection}{\numberline {1.3.3}Limitations \& Evaluation}{6}
-\contentsline {chapter}{\numberline {2}Development Process}{8}
-\contentsline {section}{\numberline {2.1}Introduction}{8}
-\contentsline {section}{\numberline {2.2}Modifications}{8}
-\contentsline {section}{\numberline {2.3}Development Environment}{9}
-\contentsline {subsection}{\numberline {2.3.1}Language}{9}
-\contentsline {subsection}{\numberline {2.3.2}Deveopment Environment}{9}
-\contentsline {subsection}{\numberline {2.3.3}Hardware}{9}
-\contentsline {subsection}{\numberline {2.3.4}Other tools}{9}
+\contentsline {subsection}{\numberline {1.3.3}Limitations \& Evaluation}{7}
+\contentsline {chapter}{\numberline {2}Development Process}{9}
+\contentsline {section}{\numberline {2.1}Introduction}{9}
+\contentsline {section}{\numberline {2.2}Modifications}{10}
+\contentsline {section}{\numberline {2.3}Development Environment}{10}
+\contentsline {subsection}{\numberline {2.3.1}Hardware}{10}
 \contentsline {chapter}{\numberline {3}Design}{11}
 \contentsline {section}{\numberline {3.1}Overall Architecture}{11}
 \contentsline {section}{\numberline {3.2}Data Structures}{11}
@@ -22,33 +19,34 @@
 \contentsline {section}{\numberline {3.4}Use Case Diagram}{11}
 \contentsline {section}{\numberline {3.5}Mapping}{11}
 \contentsline {subsection}{\numberline {3.5.1}Google}{11}
-\contentsline {subsection}{\numberline {3.5.2}OpenStreet Map}{11}
+\contentsline {subsection}{\numberline {3.5.2}OpenStreet Map}{12}
 \contentsline {subsection}{\numberline {3.5.3}MapBox}{12}
-\contentsline {section}{\numberline {3.6}User Interface}{13}
-\contentsline {chapter}{\numberline {4}Implementation}{14}
-\contentsline {section}{\numberline {4.1}Client Implementation}{14}
-\contentsline {subsection}{\numberline {4.1.1}Mapping \& Location}{14}
-\contentsline {subsection}{\numberline {4.1.2}Communication}{14}
-\contentsline {subsection}{\numberline {4.1.3}Units}{14}
-\contentsline {section}{\numberline {4.2}Server Implementation}{14}
-\contentsline {subsection}{\numberline {4.2.1}Echo}{14}
-\contentsline {subsection}{\numberline {4.2.2}Units}{14}
-\contentsline {subsection}{\numberline {4.2.3}AI}{14}
-\contentsline {chapter}{\numberline {5}Testing}{15}
-\contentsline {section}{\numberline {5.1}Overall Approach to Testing}{15}
-\contentsline {section}{\numberline {5.2}Automated Testing}{15}
-\contentsline {subsection}{\numberline {5.2.1}Unit Tests}{15}
-\contentsline {subsection}{\numberline {5.2.2}User Interface Testing}{15}
-\contentsline {subsection}{\numberline {5.2.3}Stress Testing}{15}
-\contentsline {subsection}{\numberline {5.2.4}Other types of testing}{15}
-\contentsline {section}{\numberline {5.3}Integration Testing}{15}
-\contentsline {section}{\numberline {5.4}User Testing}{15}
-\contentsline {chapter}{\numberline {6}Evaluation}{16}
-\contentsline {section}{\numberline {6.1}Primary \& Secondary Objectives}{16}
-\contentsline {section}{\numberline {6.2}Critical Evaluation}{16}
-\contentsline {subsection}{\numberline {6.2.1}Known Bugs}{16}
-\contentsline {subsection}{\numberline {6.2.2}Improvements}{16}
-\contentsline {section}{\numberline {6.3}Summary}{16}
-\contentsline {chapter}{Appendices}{17}
-\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{18}
-\contentsline {chapter}{Annotated Bibliography}{19}
+\contentsline {subsection}{\numberline {3.5.4}Language}{13}
+\contentsline {section}{\numberline {3.6}User Interface}{14}
+\contentsline {chapter}{\numberline {4}Implementation}{15}
+\contentsline {section}{\numberline {4.1}Client Implementation}{15}
+\contentsline {subsection}{\numberline {4.1.1}Mapping \& Location}{15}
+\contentsline {subsection}{\numberline {4.1.2}Communication}{15}
+\contentsline {subsection}{\numberline {4.1.3}Units}{15}
+\contentsline {section}{\numberline {4.2}Server Implementation}{15}
+\contentsline {subsection}{\numberline {4.2.1}Echo}{15}
+\contentsline {subsection}{\numberline {4.2.2}Units}{15}
+\contentsline {subsection}{\numberline {4.2.3}AI}{15}
+\contentsline {chapter}{\numberline {5}Testing}{16}
+\contentsline {section}{\numberline {5.1}Overall Approach to Testing}{16}
+\contentsline {section}{\numberline {5.2}Automated Testing}{16}
+\contentsline {subsection}{\numberline {5.2.1}Unit Tests}{16}
+\contentsline {subsection}{\numberline {5.2.2}User Interface Testing}{16}
+\contentsline {subsection}{\numberline {5.2.3}Stress Testing}{16}
+\contentsline {subsection}{\numberline {5.2.4}Other types of testing}{16}
+\contentsline {section}{\numberline {5.3}Integration Testing}{16}
+\contentsline {section}{\numberline {5.4}User Testing}{16}
+\contentsline {chapter}{\numberline {6}Evaluation}{17}
+\contentsline {section}{\numberline {6.1}Primary \& Secondary Objectives}{17}
+\contentsline {section}{\numberline {6.2}Critical Evaluation}{17}
+\contentsline {subsection}{\numberline {6.2.1}Known Bugs}{17}
+\contentsline {subsection}{\numberline {6.2.2}Improvements}{17}
+\contentsline {section}{\numberline {6.3}Summary}{17}
+\contentsline {chapter}{Appendices}{18}
+\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{19}
+\contentsline {chapter}{Annotated Bibliography}{20}

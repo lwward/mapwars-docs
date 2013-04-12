@@ -15,30 +15,17 @@ As well as removing the of reworking code by cutting out the feedback loop for e
 These modifications were made as a way to streamline development, reducing time spent in design and coding while not reducing code quality or flexibility.
 
 
-
-
 \section{Development Environment}
+It was decided to use the Eclipse IDE as the main editor partly due to it's popularity and abundance of information and also it's improved integration with the Android SDK. Google provide an Eclipse plugin called Android Development Tools (ADT) which provide a set of tools to streamline the development process. 
 
-\subsection{Language}
-Developing applications for the Android OS restricts the language choice to just Java combined with an Android framework. This results in code written with Java syntax but are not entirely synonymous with Java. Code is converted from Java Virtual Machine (JVM) compatible code to code that can be run by Dalvik, the vitual machine used by Android. This conversion optimizes the code to be run on devices with limited memory and processing power.
+Eclipse was only selected for the Android portion of development for the reasons stated above, for the remainder of the coding and other things Sublime Text 2 was picked. It offers syntax highlighting for all the most common languages as well as a vast array of plugins and features to speed up development time.
 
-For the server portion of the application it was important to choose a language that would aid in the rapid development methodology outlined for the project. Python is a general purpose high-level programming language that has a relatively small learning curve as well as some personnel background knowledge. It is designed with the express purpose of being highly readable by forcing well formatted code and using English keywords. 
-
-As the chosen hardware for the server is limited in processing power and memory it is important keep overheads to a minimum, which Python does fairly well. If Java had been used a much more powerful server would have been needed to support the same number of processes due to the overheads introduced by the JVM. However there would have been a number of advantages to using the same language as the client. These include a greater understanding of the language as it is used more extensively but more importantly would be code reuse. The client and server both perform many of the same procedures and could have sped up development time and increased accuracy and interoperability as the same packages could have been utilized.
-
-SQLite
-
-\subsection{Development Environment}
-It was decided to use the Eclipse IDE as the main editor partly due to it's popularity and abundance of information and also it's improved integration with the SDK. Google provide an Eclipse plugin called Android Development Tools (ADT) which provide a set of tools to streamline the development process. 
-
-Eclipse, sublime, GIT, GitHub, ADB
+Version control was handled by GIT providing both . The use of version control also helped with the rapid prototyping  
+GIT, GitHub, ADB 
 
 \subsection{Hardware}
-Although the platform has been selected it is also important to examine the target devices.Android has began reaching much wider than just the phone market as it finds its way on to tablets, set-top boxes and netbooks.
+Although the platform has been selected it is also important to examine the target devices. Android has began reaching much wider than just the phone market as it finds its way on to tablets, set-top boxes and netbooks.
 
 Devices? 96\% Android phones, 64\%Table, remaining 20\% netbooks and TVs.
 
 Phones, tablets, broken digitizer
-
-\subsection{Other tools}
-DIA?

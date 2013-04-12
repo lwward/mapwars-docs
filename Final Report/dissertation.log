@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  11 APR 2013 16:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  12 APR 2013 18:34
 entering extended mode
  %&-line parsing enabled.
 **dissertation.tex
@@ -161,6 +161,9 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -352,7 +355,12 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [0
+)
+Overfull \hbox (0.69365pt too wide) in paragraph at lines 28--28
+[] $[]$ 
+ []
+
+[0
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
@@ -426,21 +434,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
  <Images/android_ios.png, id=32, 413.6253pt x 397.485pt>
 File: Images/android_ios.png Graphic file (type png)
 
-<use Images/android_ios.png> [2 <./Images/android_ios.png (PNG copy)>]
-<Images/tropical_storm.png, id=36, 963.6pt x 542.025pt>
+<use Images/android_ios.png> [2] [3 <./Images/android_ios.png (PNG copy)>]
+<Images/tropical_storm.png, id=39, 963.6pt x 542.025pt>
 File: Images/tropical_storm.png Graphic file (type png)
 
-<use Images/tropical_storm.png> [3] [4 <./Images/tropical_storm.png (PNG copy)>
-] [5] [6]) [7]
+<use Images/tropical_storm.png> [4 <./Images/tropical_storm.png (PNG copy)>]
+[5] [6]) [7] [8]
 \openout2 = `Process/Process.aux'.
 
  (./Process/Process.tex
 Chapter 2.
-[8
+[9
 
 
 
-] [9]) [10]
+]) [10]
 \openout2 = `Design/Design.aux'.
 
  (./Design/Design.tex
@@ -449,17 +457,17 @@ Chapter 3.
 
 
 
-] [12] <Images/maps-google.png, id=69, 1152.305pt x 2001.4775pt>
+] [12] [13] <Images/maps-google.png, id=72, 1152.305pt x 2001.4775pt>
 File: Images/maps-google.png Graphic file (type png)
 
 <use Images/maps-google.png>
 File: Images/maps-google.png Graphic file (type png)
- <use Images/maps-google.png>) [13 <./Images/maps-google.png>]
+ <use Images/maps-google.png>) [14 <./Images/maps-google.png>]
 \openout2 = `Implementation/Implementation.aux'.
 
  (./Implementation/Implementation.tex
 Chapter 4.
-) [14
+) [15
 
 
 
@@ -468,7 +476,7 @@ Chapter 4.
 
  (./Testing/Testing.tex
 Chapter 5.
-) [15
+) [16
 
 
 
@@ -477,11 +485,11 @@ Chapter 5.
 
  (./Evaluation/Evaluation.tex
 Chapter 6.
-) [16
+) [17
 
 
 
-] [17
+] [18
 
 
 ]
@@ -489,34 +497,34 @@ Chapter 6.
 
  (./Appendix1/appendix1.tex
 Appendix A.
-) [18
+) [19
 
 
 ] (./dissertation.bbl
-Underfull \hbox (badness 6708) in paragraph at lines 33--37
+Underfull \hbox (badness 6708) in paragraph at lines 27--31
 []\OT1/ptm/m/n/10.95 comScore, ``com-Score Re-ports Febru-ary 2013 U.S. Smart-p
 hone Sub-scriber Mar-
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 33--37
+Underfull \hbox (badness 5652) in paragraph at lines 27--31
 \OT1/ptm/m/n/10.95 ket Share,'' $http : / / www . comscore . com / Insights / P
 ress[]Releases / 2013 / 4 / comScore[]Reports[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
 []\OT1/ptm/m/n/10.95 Handset De-tec-tion, ``Where in the World are An-droid De-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
 \OT1/ptm/m/n/10.95 vices Show-ing Up?'' $http : / / www . handsetdetection . co
 m / blog /
  []
 
-) AED: lastpage setting LastPage [19
+) AED: lastpage setting LastPage [20
 
 
 ]
@@ -533,22 +541,22 @@ This document will not have a glossary.
 (./Implementation/Implementation.aux) (./Testing/Testing.aux)
 (./Evaluation/Evaluation.aux) (./Appendix1/appendix1.aux)) ) 
 Here is how much of TeX's memory you used:
- 6075 strings out of 495061
- 86733 string characters out of 1182620
- 167511 words of memory out of 3000000
- 9058 multiletter control sequences out of 15000+50000
+ 6081 strings out of 495061
+ 86903 string characters out of 1182620
+ 167525 words of memory out of 3000000
+ 9062 multiletter control sequences out of 15000+50000
  26504 words of font info for 57 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 53i,11n,92p,1399b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,11n,92p,1399b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-t
 exlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.
 pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texm
 f-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (26 pages, 3353601 bytes).
+Output written on dissertation.pdf (27 pages, 3355983 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
