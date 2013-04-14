@@ -20,12 +20,11 @@ It was decided to use the Eclipse IDE as the main editor partly due to it's popu
 
 Eclipse was only selected for the Android portion of development for the reasons stated above, for the remainder of the coding and other things Sublime Text 2 was picked. It offers syntax highlighting for all the most common languages as well as a vast array of plugins and features to speed up development time.
 
-Version control was handled by GIT providing both . The use of version control also helped with the rapid prototyping  
-GIT, GitHub, ADB 
+Version control was handled by Git providing both data assurance and branching. Git was chosen over other systems, such as SVN and Perforce, offering a more versatile workflow allowing for local version control with changes being pushed to the master instead of other more centralized systems. To utilize Git to it's full potential a web-based hosting service was used to both host the code and to add extra features such as issue tracking and wiki-style documentation. Both BitBucket\footnote{\url{https://bitbucket.org/}} and GitHub\footnote{\url{https://github.com/}} were used initially but GitHub was favoured over it's more comprehensive set of tools. Particularly useful was the wiki that was automatically setup allowing for detailed documentation and research. GitHub also offers a number of visualisations to easily view commits history and network showing the different branches and merges.
+
+The use of version control also helped with the rapid prototyping methodology by utilizing branching effectively. For each new feature being developed a new branch would be made where this development took place. Once development was complete these changes were tested and then merged back in to the master branch.
 
 \subsection{Hardware}
-Although the platform has been selected it is also important to examine the target devices. Android has began reaching much wider than just the phone market as it finds its way on to tablets, set-top boxes and netbooks.
+Android offers a huge variety of hardware and is not just restricted to mobile phones. The OS can now be seen on tablets, set-top boxes, smart TVs and netbooks. However, mobile devices still have 96\% of the market share with tablets following being with 64\%, other devices only account for 20\% of the market. To match this and the expected target market development was focused on both mobile phones and tablets. Originally a Motorola Atrix (v2.3) was picked for the main development device but after the first few months a faulty digitizer demoted this to a test device. A HTC Sensation (v4.0) was procured to replace the Atrix as the primary device. Experimentation and implementation for bigger tablet sized devices was done on a Motorola Xoom 2 Media Edition (v4.0). Other testing devices include a Sony Ericsson ST25i (v2.3).
 
-Devices? 96\% Android phones, 64\%Table, remaining 20\% netbooks and TVs.
-
-Phones, tablets, broken digitizer
+The main development machine was running a 64-bit Debian based OS. Server hardware of consisted a single virtual private server with 128MB RAM running Debian 5 32-bit.
