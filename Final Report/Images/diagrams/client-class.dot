@@ -1,0 +1,45 @@
+digraph G {
+        fontname = "Bitstream Vera Sans"
+        fontsize = 8
+
+        node [
+                fontname = "Bitstream Vera Sans"
+                fontsize = 8
+                shape = "record"
+        ]
+
+        edge [
+                fontname = "Bitstream Vera Sans"
+                fontsize = 8
+                arrowhead = "none"
+                dir = both
+        ]
+
+
+        subgraph clusterServices {
+                label = "uk.ac.aber.luw9.mapwars.services"
+
+                InternetService [
+                        label = "{Unit|- id : int\l- owner : int\l- location : GeoPoint\l- bearing : float\l- type : UnitType\l- selected : boolean\l- health : int\l- lastAttacked : long\l|+ getId() : int\l+ getLocation() : GeoPoint\l+ getType() : UnitType\l+ setType(UnitType) : void\l+ select() : void\l+ unselect() : void\l+ isSelected() : boolean\l+ amOwner() : boolean\l+ getBearing() : float\l+ setBearing(float) : void\l+ setHealth(int) : void\l+ getHealth() : int\l+ isUnderAttack() : boolean\l}"
+                ]
+        }
+
+        subgraph clusterUnits {
+                label = "uk.ac.aber.luw9.mapwars.units"
+
+                Unit [
+                        label = "{Unit|- id : int\l- owner : int\l- location : GeoPoint\l- bearing : float\l- type : UnitType\l- selected : boolean\l- health : int\l- lastAttacked : long\l|+ getId() : int\l+ getLocation() : GeoPoint\l+ getType() : UnitType\l+ setType(UnitType) : void\l+ select() : void\l+ unselect() : void\l+ isSelected() : boolean\l+ amOwner() : boolean\l+ getBearing() : float\l+ setBearing(float) : void\l+ setHealth(int) : void\l+ getHealth() : int\l+ isUnderAttack() : boolean\l}"
+                ]
+
+                Vehicle [
+                        label = "{Vehicle|- targetLocation : GeoPoint\l|+ changedLocation(GeoPoint) : void\l+ setTargetLocation(GeoPoint) : void\l+ getTargetLocation() : GeoPoint\l}"
+                ]
+
+                Defence [
+                        label = "{Defence|\l}"
+                ]
+        }
+
+        Unit -> Vehicle [arrowtail="empty"]
+        Unit -> Defence [arrowtail="empty"]
+}
