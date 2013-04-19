@@ -1,15 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.25)  13 APR 2013 19:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  19 APR 2013 15:02
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **dissertation.tex
 (./dissertation.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -27,65 +26,58 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 ) (./mmp.sty
 Package: mmp 
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
+(/usr/share/texmf-texlive/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/plain.sty
+(/usr/share/texmf-texlive/tex/latex/carlisle/plain.sty
 Package: plain 1996/04/22 Plain TeX emulation (DPC)
 \tabs@latex=\box26
 \tabsyet@latex=\box27
 \tabsdone@latex=\box28
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen105
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen106
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count89
@@ -126,17 +118,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count101
 \float@exts=\toks20
@@ -144,7 +136,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box32
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
 \lst@mode=\count102
 \lst@gtempboxa=\box33
 \lst@token=\toks22
@@ -158,27 +150,27 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \lst@lineno=\count107
 \lst@maxwidth=\dimen117
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count108
 \lst@skipnumbers=\count109
 \lst@framebox=\box34
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+(/usr/share/texmf-texlive/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
 \f@ncyO@erh=\skip48
@@ -189,96 +181,82 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2011/09/01 v1.2k Refers to last page's name (HMM; JPG)
+(/usr/share/texmf-texlive/tex/latex/lastpage/lastpage.sty
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
 )
-(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2012/05/21 v3.02 (NLCT)
+(/usr/share/texmf-texlive/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2009/09/23 v2.03 (NLCT)
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texmf-texlive/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-texlive/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks23
 \XKV@tempa@toks=\toks24
 \XKV@depth=\count110
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
-Package: mfirstuc 2012/05/21 v1.06 (NLCT)
-
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count111
+(/usr/share/texmf-texlive/tex/latex/glossaries/base/mfirstuc.sty
+Package: mfirstuc 2008/12/22 v1.03 (NLCT)
 )
-\etb@tempcnta=\count112
-)
-\@glsmfirst=\toks25
-\@glsmrest=\toks26
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
+(/usr/share/texmf-texlive/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-\gls@level=\count113
-\@gls@tmpb=\toks27
+\gls@level=\count111
+\@gls@tmpb=\toks25
 \gls@tmplen=\skip55
-\glswrite=\write3
-\glskeylisttok=\toks28
-\glslabeltok=\toks29
-\glsshorttok=\toks30
-\glslongtok=\toks31
+\istfile=\write3
 
-(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
-y
+(/usr/share/texmf-texlive/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
-) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-Package: glossary-list 2011/03/28 v3.0 (NLCT)
+)
+(/usr/share/texmf-texlive/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2009/05/30 v2.01 (NLCT)
 \glslistdottedwidth=\skip56
-) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-Package: glossary-long 2011/03/28 v3.0 (NLCT)
+)
+(/usr/share/texmf-texlive/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2009/05/30 v2.01 (NLCT)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip57
 \LTright=\skip58
 \LTpre=\skip59
 \LTpost=\skip60
-\LTchunksize=\count114
+\LTchunksize=\count112
 \LTcapwidth=\dimen118
 \LT@head=\box35
 \LT@firsthead=\box36
 \LT@foot=\box37
 \LT@lastfoot=\box38
-\LT@cols=\count115
-\LT@rows=\count116
-\c@LT@tables=\count117
-\c@LT@chunks=\count118
-\LT@p@ftn=\toks32
+\LT@cols=\count113
+\LT@rows=\count114
+\c@LT@tables=\count115
+\c@LT@chunks=\count116
+\LT@p@ftn=\toks26
 )
 \glsdescwidth=\skip61
 \glspagelistwidth=\skip62
 )
-(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-Package: glossary-super 2011/03/28 v3.0 (NLCT)
+(/usr/share/texmf-texlive/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2009/05/30 v2.01 (NLCT)
 
-(/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
+(/usr/share/texmf-texlive/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count119
+\c@tracingst=\count117
 \ST@wd=\dimen119
 \ST@rightskip=\skip63
 \ST@leftskip=\skip64
@@ -295,15 +273,15 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@dimen=\dimen129
 \ST@pbox=\box39
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-Package: glossary-tree 2011/03/28 v3.0 (NLCT)
+(/usr/share/texmf-texlive/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2009/01/14 v1.01 (NLCT)
 \glstreeindent=\skip66
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
 \captionmargin=\dimen130
 \captionmargin@=\dimen131
 \captionwidth=\dimen132
@@ -311,22 +289,21 @@ Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 \caption@parindent=\dimen134
 \caption@hangindent=\dimen135
 )
-\c@ContinuedFloat=\count120
+\c@ContinuedFloat=\count118
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
+(/usr/share/texmf-texlive/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
-\c@subfigure=\count121
-\c@subtable=\count122
-)
-(./dissertation.aux (./cover.aux) (./declaration.aux) (./abstract.aux)
+(/usr/share/texmf-texlive/tex/latex/caption/subcaption.sty
+Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
+\c@subfigure=\count119
+\c@subtable=\count120
+) (./dissertation.aux (./cover.aux) (./declaration.aux) (./abstract.aux)
 (./Background/Background.aux) (./Process/Process.aux) (./Design/Design.aux)
 (./Implementation/Implementation.aux) (./Testing/Testing.aux)
 (./Evaluation/Evaluation.aux) (./Appendix1/appendix1.aux))
@@ -346,93 +323,37 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 42.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
+\scratchcounter=\count121
 \scratchdimen=\dimen136
 \scratchbox=\box40
-\nofMPsegments=\count124
-\nofMParguments=\count125
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count126
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count124
 \MPscratchDim=\dimen137
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
-\everyMPtoPDFconversion=\toks34
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+\MPnumerator=\count125
+\everyMPtoPDFconversion=\toks28
 )
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\c@lstlisting=\count129
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             macros/latex/contrib/pageslts/ 
-(lastpage)             or
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 42.
+\c@lstlisting=\count126
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \openout2 = `cover.aux'.
 
-
-(./cover.tex
+ (./cover.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Try loading font information for U+msa on input line 28.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Overfull \hbox (0.69365pt too wide) in paragraph at lines 28--28
@@ -510,20 +431,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
- <Images/android_ios.png, id=33, 413.6253pt x 397.485pt>
+ <Images/android_ios.png, id=32, 413.6253pt x 397.485pt>
 File: Images/android_ios.png Graphic file (type png)
 
-<use Images/android_ios.png>
-Package pdftex.def Info: Images/android_ios.png used on input line 24.
-(pdftex.def)             Requested size: 341.43436pt x 328.12932pt.
- [2] [3 <./Images/android_ios.png (PNG copy)>]
-<Images/tropical_storm.png, id=40, 963.6pt x 542.025pt>
+<use Images/android_ios.png> [2] [3 <./Images/android_ios.png (PNG copy)>]
+<Images/tropical_storm.png, id=39, 963.6pt x 542.025pt>
 File: Images/tropical_storm.png Graphic file (type png)
 
-<use Images/tropical_storm.png>
-Package pdftex.def Info: Images/tropical_storm.png used on input line 39.
-(pdftex.def)             Requested size: 341.43436pt x 192.05217pt.
- [4 <./Images/tropical_storm.png (PNG copy)>]
+<use Images/tropical_storm.png> [4 <./Images/tropical_storm.png (PNG copy)>]
 [5] [6]) [7] [8]
 \openout2 = `Process/Process.aux'.
 
@@ -535,7 +450,7 @@ Chapter 2.
 
 ]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 23.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+ (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [10]) [11]
 \openout2 = `Design/Design.aux'.
@@ -543,35 +458,34 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 (./Design/Design.tex
 Chapter 3.
-[12
+<Images/diagrams/client-class.png, id=66, 609.27625pt x 562.1pt>
+File: Images/diagrams/client-class.png Graphic file (type png)
+
+<use Images/diagrams/client-class.png> [12
 
 
 
-] [13] [14] <Images/maps-google.png, id=77, 1152.305pt x 2001.4775pt>
+] [13 <./Images/diagrams/client-class.png>] <Images/maps-google.png, id=76, 115
+2.305pt x 2001.4775pt>
 File: Images/maps-google.png Graphic file (type png)
 
 <use Images/maps-google.png>
-Package pdftex.def Info: Images/maps-google.png used on input line 75.
-(pdftex.def)             Requested size: 85.35695pt x 148.2414pt.
 File: Images/maps-google.png Graphic file (type png)
- <use Images/maps-google.png>
-Package pdftex.def Info: Images/maps-google.png used on input line 81.
-(pdftex.def)             Requested size: 85.35695pt x 148.2414pt.
-) [15 <./Images/maps-google.png>]
+ <use Images/maps-google.png> [14]) [15 <./Images/maps-google.png>]
 \openout2 = `Implementation/Implementation.aux'.
 
  (./Implementation/Implementation.tex
 Chapter 4.
-) [16
+[16
 
 
 
-]
+] [17]) [18]
 \openout2 = `Testing/Testing.aux'.
 
  (./Testing/Testing.tex
 Chapter 5.
-) [17
+) [19
 
 
 
@@ -580,11 +494,11 @@ Chapter 5.
 
  (./Evaluation/Evaluation.tex
 Chapter 6.
-) [18
+) [20
 
 
 
-] [19
+] [21
 
 
 ]
@@ -592,7 +506,7 @@ Chapter 6.
 
  (./Appendix1/appendix1.tex
 Appendix A.
-) [20
+) [22
 
 
 ] (./dissertation.bbl
@@ -619,9 +533,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--45
 m / blog /
  []
 
-) 
-AED: lastpage setting LastPage
-[21
+) AED: lastpage setting LastPage [23
 
 
 ]
@@ -638,24 +550,23 @@ This document will not have a glossary.
 (./Implementation/Implementation.aux) (./Testing/Testing.aux)
 (./Evaluation/Evaluation.aux) (./Appendix1/appendix1.aux)) ) 
 Here is how much of TeX's memory you used:
- 7614 strings out of 495059
- 110619 string characters out of 3182030
- 198123 words of memory out of 3000000
- 10541 multiletter control sequences out of 15000+200000
+ 6142 strings out of 495061
+ 87769 string characters out of 1182620
+ 167536 words of memory out of 3000000
+ 9108 multiletter control sequences out of 15000+50000
  31872 words of font info for 71 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 53i,11n,92p,1452b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texlive
-/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (28 pages, 3356253 bytes).
+ 28 hyphenation exceptions out of 8191
+ 53i,10n,92p,1399b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-t
+exlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrr8
+a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
+xmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on dissertation.pdf (30 pages, 3389790 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
