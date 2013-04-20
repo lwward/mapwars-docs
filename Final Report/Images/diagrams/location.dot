@@ -1,0 +1,24 @@
+digraph findMaxElement {
+  truecolor = true
+  font = "Times New Roman"
+  //label = "Найти максимальный элемент"
+  node [shape = box]
+
+  start [ label="Location\nrecieved", shape = ellipse]
+
+  n1 [ label= "Location\nknown?", shape = diamond ]
+  n2 [ label= "Signifcaly\nnewer?", shape = diamond ]
+  n3 [ label= "Signifcaly\nolder?", shape = diamond ]
+  
+  f1 [ label="Store\nlocation", shape = ellipse]
+  end [ label="End", shape = ellipse]
+
+  start -> n1
+  f1:s -> end:n
+  n1:e -> f1 [taillabel = "No"]
+  n1:s -> n2:n [taillabel = "Yes"]
+  n2:s -> n3:n [taillabel = "No"]
+  n2:e -> f1 [taillabel = "Yes"]
+  
+  n3:w -> end [taillabel = "Yes"]
+}

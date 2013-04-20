@@ -18,6 +18,18 @@
 \fi
 #2}}
 
+\bibitem{location}
+{Android}, ``{Location Strategies},''
+  \url{http://developer.android.com/guide/topics/location/strategies.html}.
+ \begin{quotation}\noindent This is my annotation. I should add in a
+  description here. \end{quotation}
+
+\bibitem{location_accuracy}
+------, ``{Reference: android.location},''
+  \url{http://developer.android.com/reference/android/location/Location.html}.
+ \begin{quotation}\noindent This is my annotation. I should add in a
+  description here. \end{quotation}
+
 \bibitem{spiral_model}
 B.~Boehm, ``A spiral model of software development and enhancement,''
   \emph{Computer}, vol.~21, no.~5, pp. 61--72, 1988.
@@ -26,30 +38,35 @@ B.~Boehm, ``A spiral model of software development and enhancement,''
 \bibitem{smartphone_market}
 comScore, ``{comScore Reports February 2013 U.S. Smartphone Subscriber Market
   Share},''
-  \url{http://www.comscore.com/Insights/Press_Releases/2013/4/comScore_Reports%
-_February_2013_U.S._Smartphone_Subscriber_Market_Share}, 2013.
+  \url{http://www.comscore.com/Insights/Press_Releases/2013/4/comScore_Reports_February_2013_U.S._Smartphone_Subscriber_Market_Share},
+  2013.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 
 \bibitem{de}
 {Developer Economics}, ``Developer tools: The foundations of the app economy,''
-  \url{http://www.visionmobile.com/product/developer-economics-2013-the-tools-%
-report/}, 2013.
+  \url{http://www.visionmobile.com/product/developer-economics-2013-the-tools-report/},
+  2013.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 
 \bibitem{devices}
 {Handset Detection}, ``{Where in the World are Android Devices Showing Up?}''
-  \url{http://www.handsetdetection.com/blog/where-in-the-world-are-android-dev%
-ices-showing-up-infographic/}, 2013.
+  \url{http://www.handsetdetection.com/blog/where-in-the-world-are-android-devices-showing-up-infographic/},
+  2013.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 
 \bibitem{mapquest_example}
 MapQuest, ``{Android Maps API: Developer's Guide},''
-  \url{http://developer.mapquest.com/web/products/featured/android-maps-api/do%
-cumentation}.
+  \url{http://developer.mapquest.com/web/products/featured/android-maps-api/documentation}.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
+
+\bibitem{1377314}
+E.~Trevisani and A.~Vitaletti, ``Cell-id location technique, limits and
+  benefits: an experimental study,'' in \emph{Mobile Computing Systems and
+  Applications, 2004. WMCSA 2004. Sixth IEEE Workshop on}, 2004, pp. 51--60.
+
 
 \end{thebibliography}

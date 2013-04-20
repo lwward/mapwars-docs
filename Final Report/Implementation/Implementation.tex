@@ -39,13 +39,20 @@ MapBox did not offer satellite imagery but the beauty and simplicity of the maps
 \subsection{Location}
 Detecting the users location accurately is fundamental and is used directly in controlling game play throughout the game.
 
-There are a number of difficulties presented when trying to accurately determine a users location. Firstly is the array of different sensors available, each with their own unique characteristics, advantages and disadvantages.
+There are a number of difficulties presented when trying to accurately determine a users location. Firstly is the array of different providers available, each with their own unique characteristics, advantages and disadvantages.
 
-When taking location data from a variety of sources it is critical to have a process to determine which is the most accurate to the users current location. Each sensor will gather data at different times and to a different level of accuracy. Whenever this data is processed a judgement needs to be made into whether this is more reliable than the currently known location. This was made based on the following criteria:
-- Accuracy
-- Age
+The network location provider uses the phones network connections to try and determine the users location. If they are connected via Wi-Fi the SSID (Service Set Identifier) is queried against Google's database of known SSID's, returning a location. This database is built by crowd sourcing data from Android handsets. When enabling location services on an Android device the following messages is displayed, \"Allow Google's location service to collect anonymous location data\". Periodically the users location data from GPS, Cell-ID and Wi-Fi is broadcast along with details about available Wi-Fi connections to Google. This data tends to be fairly accurate, however when not connected to Wi-Fi the network location provider returns a location based upon Cell-ID. This technique identifies the mobile network providers cell the users is in. The location of each Cell-ID can be located so an estimated can be produced for the users location. Unfortunately cells can be very large making this method very inaccurate, however this tends to be around 1km and even less within rural locations\cite{1377314} making it acceptable for this application.
 
-The accuracy of the users location is not a critical variable within the application as it will not be displayed directly and only to determine the radius of control. Therefore if the location is off by a few hundred meters it will not have a detrimental affect on game play. This allowed all types of sensor to be used, including network estimated location. Network location can be up to asdfoiasjdfiojaoisdfjoasidjfoaisdjf
+When taking location data from a variety of sources it is critical to have a process to determine which is the most accurate to the users current location. The developers guide on location strategies\cite{location} was an ideal resource to understand how each different provider worked and ultimately how to combine them to produce the best outcome. Each provider will gather data at different times and to a different level of accuracy. Whenever this data is processed a judgement needs to be made into whether this is more reliable than the currently known location. This was made based on its accuracy and age.
+
+The process used to determine the most accurate location was adapted from an example provided in the developer guide. As shown in figure \ref{fig:location} each new location is compared against different aspects of the previously known location to decide if it is more or less accurate. If no previous location has been noted then the new data is taken to be the most accurate. If there has been a previous location the new location is only used if it is significantly newer else, if it is not significantly older, the accuracy of the two sources are compared. Each time a new location is received it comes with an estimated accuracy. This accuracy is measured in meters and is defined as the radius of 68\% confidence\cite{location_accuracy}. Meaning that there is a 68\% chance that the user is located within a circle with a radius of the accuracy, mapped around the supplied location.
+
+\begin{figure}[H]
+  \centering
+   \includegraphics[height=0.9\textheight]{Images/diagrams/location.png}
+  \caption{Location flowchart}
+  \label{fig:location}
+\end{figure}
 
 
 \subsection{GUI}
