@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{#1}
 \csname url@rmstyle\endcsname
 \providecommand{\newblock}{\relax}
@@ -18,6 +18,12 @@
 \fi
 #2}}
 
+\bibitem{istablet}
+``{Android - detect small tablet vs big phone?}''
+  \url{http://stackoverflow.com/a/10080537/794119}, 2012.
+ \begin{quotation}\noindent This is my annotation. I should add in a
+  description here. \end{quotation}
+
 \bibitem{location}
 {Android}, ``{Location Strategies},''
   \url{http://developer.android.com/guide/topics/location/strategies.html}.
@@ -27,6 +33,12 @@
 \bibitem{location_accuracy}
 ------, ``{Reference: android.location},''
   \url{http://developer.android.com/reference/android/location/Location.html}.
+ \begin{quotation}\noindent This is my annotation. I should add in a
+  description here. \end{quotation}
+
+\bibitem{screensizes}
+------, ``{Supporting Different Screen Sizes},''
+  \url{http://developer.android.com/training/multiscreen/screensizes.html}.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 
