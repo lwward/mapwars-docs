@@ -61,7 +61,7 @@ The process used to determine the most accurate location was adapted from an exa
 \subsubsection*{Device Specific Layouts}
 Android layouts offer a variety of options to provide different layouts to different devices. The most basic of which is to make a fluid layout that stretches to fill the screen using \verb|wrap_content| or \verb|match_parent| widths. As well as these options there is a variety of dimension units to allow layouts adjust to different devices. The most useful of which are density-independent pixels (dp) which are units based on the physical screen size. These units relates to one pixel on a 160 dots per inch (dpi) screen. So the ratio of dp-to-pixel changes to match a devices dp. There is also a derivative of dp, scale-independent pixels (sp). Sp is the same as dp but also takes the users font size preferences into account.
 
-Although flexible layouts allow for a single layout to be used across devices it does not allow for different layouts to be specified. This is possible using size-specific resources\cite{screensizes}. By placing layouts in a folder \verb|layout-large| these layouts will only be used for devices classified as large, where any device below this category will use layout files in the standard \verb|layout| folder. These size qualifiers are predetermined and static As of Android 3.2 new smallest width based qualifiers were introduced using the devices dp as a reference. Layout files placed in a folder \verb|layout-sw<n>dp| are used only for devices with a minimum width of n dp. It is noted that a typical 7" tablet has a minimum width of around 600 dp, this is the size opted for in this project. As described in the design it was important to differentiate between the phone and tablet layouts as both offer users a different experience.
+Although flexible layouts allow for a single layout to be used across devices it does not allow for different layouts to be specified. This is possible using size-specific resources\cite{screensizes}. By placing layouts in a folder \verb|layout-large| these layouts will only be used for devices classified as large, where any device below this category will use layout files in the standard \verb|layout| folder. These size qualifiers are predetermined and static As of Android 3.2 new smallest width based qualifiers were introduced using the devices dp as a reference. Layout files placed in a folder \verb|layout-sw<n>dp| are used only for devices with a minimum width of n dp. It is noted that a typical 7" tablet has a minimum width of around 600dp, this is the size opted for in this project. As described in the design it was important to differentiate between the phone and tablet layouts as both offer users a different experience.
 
 \begin{figure}[H]
   \centering
@@ -72,7 +72,7 @@ Although flexible layouts allow for a single layout to be used across devices it
 
 While working on two separate layouts a large amount of code was being repeated and as features were added both layouts had to be updated interdependently. This seemed like a waste of time so a neater solution was investigated. A simple yet elegant solution was found that allowed different layouts to be combined together using the include tag.
 
-For example the game screen added components to a basic map view, shown in Figure \ref{fig:isogui}. The layers A and B are stored in separate files with two versions, one for each device. A simplified version of the file structure used can be seen in figure \ref{fig:fs}.
+For example the game screen added components to a basic map view, shown in figure \ref{fig:isogui}. The layers A and B are stored in separate files with two versions, one for each device. A simplified version of the file structure used can be seen in figure \ref{fig:fs}. \verb|map.xml| is the layout file used by the game activity, which in turn includes the header (A in figure \ref{fig:isogui}) and controls (B in figure \ref{fig:isogui}) layout files. These are automatically loaded from the correct folder on inclusion so the tablet layout is shown for devices with a width greater than 600dp.
 
 \begin{figure}[H]
 \dirtree{%
@@ -92,7 +92,7 @@ For example the game screen added components to a basic map view, shown in Figur
 \subsubsection*{Device Based Orientation}
 From the design specifications for the GUI it was decided that devices of different screen sizes should not only have different layouts but also different orientations. Forcing an application wide orientation is straightforward. By setting \verb|android:screenOrientation| to landscape in the \verb|AndroidManifest.xml| file will keep the orientation landscape. Unfortunately there is not such a simple solution for setting the orientation based on device.
 
-It is also possible to set the orientation within the application code. Each activities orientation can be set using \verb|Activity.setRequestedOrientation|. Once it has been determined which device is being used it is then possible to set the relevant orientation, as shown in Figure \ref{fig:orientation}. It is to be noted that this changes the orientation for this activity, not the application. As the application is built of multiple activities this needs to run whenever a new activity is created. All activities have access to the MainController and call \verb|setActivity| on creation, so this seemed like the most logical point to do this.
+It is also possible to set the orientation within the application code. Each activities orientation can be set using \verb|Activity.setRequestedOrientation|. Once it has been determined which device is being used it is then possible to set the relevant orientation, as shown in figure \ref{fig:orientation}. It is to be noted that this changes the orientation for this activity, not the application. As the application is built of multiple activities this needs to run whenever a new activity is created. All activities have access to the MainController and call \verb|setActivity| on creation, so this seemed like the most logical point to do this.
 
 \begin{figure}[H]
 \begin{verbatim}
@@ -111,14 +111,27 @@ if (Utils.isTablet(currentContext)) {
 The code behind isTablet() was based upon an online solution\cite{istablet} to differentiate between big phones and small tablets. It appears that the best approach is to calculate the screen size by dividing the pixels by the devices dpi. A diagonal screen width of 7 inches was selected as the cut off point between classifications. Anything over this felt more comfortable in landscape orientation and are mainly operated in this manor.
 
 \subsubsection*{9-patch Images}
-9-patch
+9-patch images are the ideal solution for designing images that are intended to scale. As this application will be run on a variety of devices they were desirable to investigate further.
 
+\begin{wrapfigure}{r}{0.1\textwidth}
+  \includegraphics[width=0.1\textwidth]{Images/input_green.png}
+  \caption{}
+  \label{fig:patch}
+\end{wrapfigure}
+
+These standard images contain information that can be used to define how the image should be have when scaled. Surrounding the design are four separate, pixel wide lines that indicate which sections should scale. Those located on the north and west edge mark the area that should be scaled. When the image is stretched the areas not in-line with these marks stay as they are whereas the marked out area stretches to fill in the gap. As the side of this image is uniform it makes no difference if just one pixel stretches or a large portion, so just a single pixel was used. The other marks, east and west, are there to indicate the fill area or in other words the free space within the image. In this case the area defines where the input text should be positioned as not to overlap to overlay the rounded corners and styling. Using the file extension .9.png automatically tells Android that this is a 9-patch image and it will use the guides to scale the image. 
+
+Only one 9-patch image was used during this project and that was to keep a consistent look across devices for text fields. When styling a text field it is important to give the user feedback regarding which input is currently selected. For this a background was created with multiple drawable items, one for when the input has focus and the default. The image used for focused inputs is shown in figure \ref{fig:patch} showing a green glow around the input.
 
 \subsection{Communication}
-PUSH/PULL
-XML/JSON
+To start developing the communications portion of the client code a simple server was required. For this a basic echo server was created, explained in detail later, that simply received data and responded with a static response. With this in place it was possible to start experimenting with different technologies. The first big decision being between using push or pull technology.
 
-\subsection{Units}
+Both push and pull are types of network communication and describe the interactions between the client and the server. Pull is the technique where each interaction is initiated by the client, the client sends the server a message and the server responds. Push on the other hand allows the free transmission of data in both directions irrespective of previous communications. Typically in a push scenario the client subscribes to a server so when new content is available the server pushes the data on to the client. In a push scenario data is received by the client as close to real-time as possible, whereas when using pull the server has to wait for the client to request data before it is transmitted.
+
+In the fast pace of online multi-player games it is vital to update all clients with out players actions as quickly and accurately as possible. The standard approach is to have a highly coupled client-server architecture relying on push technology to keep all clients updated. However after reading a study\cite{6329833} examining the feasibility of using RESTful architecture for a massively multi-player game. It was conclude that it is possible to support the kind of user and interaction loads found in popular multi-player games using REST, if caching and other techniques were utilized.
+
+REST lends itself to scalable applications due to its stateless communication, meaning that re-authenticate is required for each request. This re-authentication enables each request to be processed by any server in the network, irrespective of any previous interactions. Creating a scalable server architecture would be a desirable goal any multi-player game as it allows the architecture to quickly adapt to influxes of users. Each request could be received by a transparent proxy that would forward the message on to one of the servers residing behind it. The server could then process this request, responding data will then relayed back through the proxy to the client. Having each request hit the proxy before being allocated to a server would help load balance the servers, distributing activity equally between servers. Adding in the possibility for the proxy to avoid overloaded machines until they finish their current requests. When using push this balancing becomes more complicated as the proxy will direct each new client to the least loaded server. As users connect and part one server may become overloaded as its connected clients continue to interact heavily while other servers sit idling. This would have to be combated by closing connections and having them re-established with a different server when one comes under too heavy a load.
+
 
 
 
