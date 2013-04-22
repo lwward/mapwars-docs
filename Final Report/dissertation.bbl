@@ -18,6 +18,12 @@
 \fi
 #2}}
 
+\bibitem{gcm}
+``{Google Cloud Messaging for Android},''
+  \url{http://developer.android.com/google/gcm/index.html}.
+ \begin{quotation}\noindent This is my annotation. I should add in a
+  description here. \end{quotation}
+
 \bibitem{location}
 ``{Location Strategies},''
   \url{http://developer.android.com/guide/topics/location/strategies.html}.
@@ -85,6 +91,12 @@ C.~Lopes, T.~Debeauvais, and A.~Valadares, ``Restful massively multi-user
 \bibitem{mapquest_example}
 MapQuest, ``{Android Maps API: Developer's Guide},''
   \url{http://developer.mapquest.com/web/products/featured/android-maps-api/documentation}.
+ \begin{quotation}\noindent This is my annotation. I should add in a
+  description here. \end{quotation}
+
+\bibitem{mapquest_directions}
+------, ``{Open Directions Service Developer's Guide},''
+  \url{http://open.mapquestapi.com/directions/}.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 

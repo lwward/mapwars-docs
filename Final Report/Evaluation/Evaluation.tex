@@ -17,13 +17,50 @@
 
 % The critical evaluation can sometimes be the weakest aspect of most project dissertations. We will discuss this in a future lecture and there are some additional points raised on the project website. 
 
+While providing a challenging set of targets the final application demonstrated a working prototype of the original concept, creating a multi-player location-aware game for a mobile platform. This was completed while taking into account consideration of the limitations presented by such a platform. A great deal was learnt about both Android development and Python fundamentals.
 
-\section{Primary \& Secondary Objectives}
+\section{Primary Objectives}
+All primary objectives were at least partially implemented, with most being fully integrated. The only objective not fully covered is the ability to place the running application in the background and then restore it.
+
+User accounts, both registration and authentication, are implemented on both the server and client. User accounts are persistently stored on the server-side, while session based authentication is used to keep track of connected clients.
+
+The ability to create units is fully functional, with these actions being quickly reflected on other players devices. Players can then select their units and instruct them to move to a new location. With two modes available to select units this processes is simple and flexible. Units will then start travelling towards the target location, again with other players devices displaying these updates accurately. Units automatically engage with enemy units as they come into range with dynamic consequences.
+
+A simplified form of resource gathering was adopted taking inspiration from Tropical Stormfront's model. Placing of mines automatically gathered a fixed amount resources at regular intervals. Although not being the intended solution it was a satisfactory compromise to get the functionality in place on time.
+
+\section{Expanded Objectives}
+Unfortunately none of the secondary objectives were reached due to the time scale of the project. Some of these objectives would be fairly trivial to implement but were decided to be left out for the sake of improving the fundamental objectives.
+
+Adding additional units and structure types with individual characteristics would be the easiest of these to add and would require minimal alterations to both the client and server. Removing hard coded characteristics in favour of inherited values from a list of available types. Once these alterations were made it would then be possible to add any amount of different types without altering the underlying code. Likewise upgradable units and structures and environment variables would have required a similar amount of investment.
+
+Offline notifications would also have been possible using Google's cloud messaging (GCM) service\cite{gcm}. This service allows data to be transmitted to Android devices via Google's servers. Data is limited to a 4kb payload so would most likely have been a simple notification message. This message could then be disabled to the user from which they can decide whether to open the MapWars application and respond or ignore it. The nice feature of GCM is that messages are delivered to applications even if they are closed, therefore allowing for notifications to be displayed when the application is not in use. This would be an important feature in a release version, increasing user retention, but for this prototype it was not an integral part.
+
+The other secondary objectives were far more ambitious. The data is widely available for both the path finding and variable resources ideas but incorporating these into the project would be more difficult. MapQuest, for example, offer a limit-free open directions API\cite{mapquest_directions} from which it is possible to get a series of way points. These coordinates represent the route between two supplied locations. Unfortunately mapping these to unit movements would have required a considerable amount of investment in both the client and server portions of the application. 
 
 \section{Critical Evaluation}
+Retrospectively the initial objectives were more optimistic than first imagined. That being said they were necessary to get a full experience of what such a game would require. The overall result was a playable prototype that gave a feel as to what a completed version would be like. It was encouraging to see that there were no major complications during development and the result was an enjoyable experience to play.
+
+A major area in which this project is lacking is in comprehensive testing. This is proof of the difficulty of maintaining a consistent approach across a development life cycle. Testing should have been an integral part of each iteration cycle, unfortunately this was not followed as rigorously as it should have been. This can be entirely blamed on the developer wanting to focus more attention on completing functional aspects of the code rather than testing. The availability and domain knowledge of JUnit would have made this a not to difficult task and may have, unnoticed by the developer, in creased productivity and accuracy. That being said no major problems were en-counted directly related to the lack of such testing. This could be attributed to the nature of the application which requires a fair amount of observational testing during development; helping spot any errors quickly.
+
 
 \subsection{Known Bugs}
+Current path finding techniques on the server-side are rudimentary. Although fulfilling the requirement of moving a unit from point A to point B it does so in a straight line, not taking other units into account. This simplistic approach leads to units manoeuvring directly over the top of other units. No obvious solution, within the currently implemented process, was found to prevent this. It would have been possible to create way points the unit could follow that would create a non-linear path. This would avoid static obstacles but could not predict the movement of other units. To effectively avoid moving units a more sophisticated intelligent system would need to be devised as well as an increase in server-client communication.
+
+This path finding also leads to another bug which is most apparent when two units are selected at the same time and directed to the same location. The two units will reach the end location and position themselves in the same location. At this point it will become impossible to select just one of these units as they occupy the same space. Resulting in two units merging into one without the ability to separate them. A solution could be imagined where when the server receives a request to move a unit into a location; this location is then checked against other units positions and target positions. If this request matches with another unit the target location will be modified. So that the unit comes to rest as close to the target location while not impeding on any other units.
+
+
+Inconsistency when placed in background
 
 \subsection{Improvements}
+Due the time frame available a number of features, as mentioned before, were not implemented. By implementing these expanded objectives the overall game-play could be improved.
+
+Fixing the known bugs would be a high priority, especially the ability to place the running application in the background while keeping sync with the server. This is expected to be a natural behaviour of the end user and would lead to frustration if presented in its current form.
+
+The graphics within the Android client require more work as they are currently flat images. Adding in animation of units and scenery as well as visualizing attacks would add a lot to the experience.
+
+Reworking the server architecture to be scalable and work across multiple servers would be necessary before release. These alterations would see the server being able to hand much larger amounts of traffic. It would be desirable to create a transparent proxy that routed connections to one of a number of servers, each running independently of the others. These servers would simply handle updates and responses and would delegate the AI portion of functionality to a separate machine. To make all this possible a different DBMS would be required to allow multiple connections from different servers, this would be running on a dedicated machine.
+
 
 \section{Summary}
+It is enjoyable and this type of game could be viable for mobile devices.
+

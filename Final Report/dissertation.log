@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.25)  22 APR 2013 02:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.25)  22 APR 2013 03:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -653,52 +653,58 @@ Chapter 5.
 
  (./Evaluation/Evaluation.tex
 Chapter 6.
-) [26
+[26
 
 
 
-] (./dissertation.bbl
-Underfull \hbox (badness 4242) in paragraph at lines 28--30
+]) [27] (./dissertation.bbl
+Underfull \hbox (badness 4242) in paragraph at lines 34--36
 []\OT1/ptm/m/n/10.95 ``Reference: an-droid.location,'' $http : / / developer . 
 android . com / reference / android / location /
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 34--36
+Underfull \hbox (badness 1888) in paragraph at lines 40--42
 []\OT1/ptm/m/n/10.95 ``Supporting Dif-fer-ent Screen Sizes,'' $http : / / devel
 oper . android . com / training / multiscreen /
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 51--55
+Underfull \hbox (badness 4899) in paragraph at lines 57--61
 []\OT1/ptm/m/n/10.95 comScore, ``com-Score Re-ports Febru-ary 2013 U.S. Smart-p
 hone Sub-scriber Mar-
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 51--55
+Underfull \hbox (badness 1308) in paragraph at lines 57--61
 \OT1/ptm/m/n/10.95 ket Share,'' $http : / / www . comscore . com / Insights / P
 ress[]Releases / 2013 / 4 / comScore[]Reports[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 []\OT1/ptm/m/n/10.95 Handset De-tec-tion, ``Where in the World are An-droid De-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 \OT1/ptm/m/n/10.95 vices Show-ing Up?'' $http : / / www . handsetdetection . co
 m / blog /
  []
 
-[27
+[28
 
 
-]) 
+]
+Underfull \hbox (badness 4765) in paragraph at lines 98--100
+[]\OT1/ptm/m/n/10.95 ------, ``Open Di-rec-tions Ser-vice De-vel-oper's Guide,'
+' $http : / / open . mapquestapi . com /
+ []
+
+) 
 AED: lastpage setting LastPage
-[28]
+[29]
 
 Package glossaries Warning: \makeglossaries hasn't been used,
 the glossaries will not be updated.
@@ -712,10 +718,10 @@ This document will not have a glossary.
 (./Implementation/Implementation.aux) (./Testing/Testing.aux)
 (./Evaluation/Evaluation.aux)) ) 
 Here is how much of TeX's memory you used:
- 7863 strings out of 495059
- 114271 string characters out of 3182030
- 201493 words of memory out of 3000000
- 10774 multiletter control sequences out of 15000+200000
+ 7865 strings out of 495059
+ 114297 string characters out of 3182030
+ 201501 words of memory out of 3000000
+ 10776 multiletter control sequences out of 15000+200000
  33465 words of font info for 74 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,11n,92p,1452b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -726,10 +732,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on dissertation.pdf (35 pages, 3586048 bytes).
+Output written on dissertation.pdf (36 pages, 3589818 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 156 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

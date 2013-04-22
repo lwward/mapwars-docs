@@ -39,9 +39,10 @@
 \contentsline {section}{\numberline {5.3}Integration Testing}{25}
 \contentsline {section}{\numberline {5.4}User Testing}{25}
 \contentsline {chapter}{\numberline {6}Evaluation}{26}
-\contentsline {section}{\numberline {6.1}Primary \& Secondary Objectives}{26}
-\contentsline {section}{\numberline {6.2}Critical Evaluation}{26}
-\contentsline {subsection}{\numberline {6.2.1}Known Bugs}{26}
-\contentsline {subsection}{\numberline {6.2.2}Improvements}{26}
-\contentsline {section}{\numberline {6.3}Summary}{26}
-\contentsline {chapter}{Annotated Bibliography}{27}
+\contentsline {section}{\numberline {6.1}Primary Objectives}{26}
+\contentsline {section}{\numberline {6.2}Expanded Objectives}{26}
+\contentsline {section}{\numberline {6.3}Critical Evaluation}{27}
+\contentsline {subsection}{\numberline {6.3.1}Known Bugs}{27}
+\contentsline {subsection}{\numberline {6.3.2}Improvements}{27}
+\contentsline {section}{\numberline {6.4}Summary}{27}
+\contentsline {chapter}{Annotated Bibliography}{28}
