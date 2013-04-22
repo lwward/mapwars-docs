@@ -18,27 +18,27 @@
 \fi
 #2}}
 
-\bibitem{istablet}
-``{Android - detect small tablet vs big phone?}''
-  \url{http://stackoverflow.com/a/10080537/794119}, 2012.
- \begin{quotation}\noindent This is my annotation. I should add in a
-  description here. \end{quotation}
-
 \bibitem{location}
-{Android}, ``{Location Strategies},''
+``{Location Strategies},''
   \url{http://developer.android.com/guide/topics/location/strategies.html}.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 
 \bibitem{location_accuracy}
-------, ``{Reference: android.location},''
+``{Reference: android.location},''
   \url{http://developer.android.com/reference/android/location/Location.html}.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 
 \bibitem{screensizes}
-------, ``{Supporting Different Screen Sizes},''
+``{Supporting Different Screen Sizes},''
   \url{http://developer.android.com/training/multiscreen/screensizes.html}.
+ \begin{quotation}\noindent This is my annotation. I should add in a
+  description here. \end{quotation}
+
+\bibitem{istablet}
+``{Android - detect small tablet vs big phone?}''
+  \url{http://stackoverflow.com/a/10080537/794119}, 2012.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 
@@ -68,6 +68,19 @@ comScore, ``{comScore Reports February 2013 U.S. Smartphone Subscriber Market
   2013.
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
+
+\bibitem{geo}
+{Jan Philip Matuschek}, ``{Finding Points Within a Distance of a
+  Latitude/Longitude Using Bounding Coordinates},''
+  \url{http://janmatuschek.de/LatitudeLongitudeBoundingCoordinates}.
+ \begin{quotation}\noindent mathematics that is outside of my domain knowledge.
+  \end{quotation}
+
+\bibitem{6329833}
+C.~Lopes, T.~Debeauvais, and A.~Valadares, ``Restful massively multi-user
+  virtual environments: A feasibility study,'' in \emph{Games Innovation
+  Conference (IGIC), 2012 IEEE International}, 2012, pp. 1--4.
+
 
 \bibitem{mapquest_example}
 MapQuest, ``{Android Maps API: Developer's Guide},''

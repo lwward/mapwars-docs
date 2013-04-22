@@ -1,11 +1,5 @@
 \chapter{Implementation}
 
-
-Each iteration of the project will be described
-
-
-
-
 \section{Client Implementation}
 \subsection{Mapping}
 The first iteration focused on the central component of the application, the map. It was vitally important that an appropriate mapping solution was used.
@@ -124,23 +118,35 @@ These standard images contain information that can be used to define how the ima
 Only one 9-patch image was used during this project and that was to keep a consistent look across devices for text fields. When styling a text field it is important to give the user feedback regarding which input is currently selected. For this a background was created with multiple drawable items, one for when the input has focus and the default. The image used for focused inputs is shown in figure \ref{fig:patch} showing a green glow around the input.
 
 \subsection{Communication}
-To start developing the communications portion of the client code a simple server was required. For this a basic echo server was created, explained in detail later, that simply received data and responded with a static response. With this in place it was possible to start experimenting with different technologies. The first big decision being between using push or pull technology.
+To start developing the communications portion of the client code a simple server was required. For this a basic echo server was created that simply received data and responded with a static response. With this in place it was possible to start experimenting with different technologies. The first big decision being between using push or pull technology.
 
 Both push and pull are types of network communication and describe the interactions between the client and the server. Pull is the technique where each interaction is initiated by the client, the client sends the server a message and the server responds. Push on the other hand allows the free transmission of data in both directions irrespective of previous communications. Typically in a push scenario the client subscribes to a server so when new content is available the server pushes the data on to the client. In a push scenario data is received by the client as close to real-time as possible, whereas when using pull the server has to wait for the client to request data before it is transmitted.
 
-In the fast pace of online multi-player games it is vital to update all clients with out players actions as quickly and accurately as possible. The standard approach is to have a highly coupled client-server architecture relying on push technology to keep all clients updated. However after reading a study\cite{6329833} examining the feasibility of using RESTful architecture for a massively multi-player game. It was conclude that it is possible to support the kind of user and interaction loads found in popular multi-player games using REST, if caching and other techniques were utilized.
+In the fast pace of online multi-player games it is vital to update all clients with out players actions as quickly and accurately as possible. The standard approach is to have a highly coupled client-server architecture relying on push technology to keep all clients updated. However after reading a study\cite{6329833} examining the feasibility of using RESTful architecture for a massively multi-player game. RESTful architecture would take advantage of pull instead of the standard push. It was conclude that it is possible to support the kind of user and interaction loads found in popular multi-player games using REST, if caching and other techniques were utilized.
 
 REST lends itself to scalable applications due to its stateless communication, meaning that re-authenticate is required for each request. This re-authentication enables each request to be processed by any server in the network, irrespective of any previous interactions. Creating a scalable server architecture would be a desirable goal any multi-player game as it allows the architecture to quickly adapt to influxes of users. Each request could be received by a transparent proxy that would forward the message on to one of the servers residing behind it. The server could then process this request, responding data will then relayed back through the proxy to the client. Having each request hit the proxy before being allocated to a server would help load balance the servers, distributing activity equally between servers. Adding in the possibility for the proxy to avoid overloaded machines until they finish their current requests. When using push this balancing becomes more complicated as the proxy will direct each new client to the least loaded server. As users connect and part one server may become overloaded as its connected clients continue to interact heavily while other servers sit idling. This would have to be combated by closing connections and having them re-established with a different server when one comes under too heavy a load.
 
+Original spike work focused on implementing such a pull based system. It was found that, although the papers conclusion was achievable, the number of requests required to make the game playable was huge. Creating and tearing down connections is a costly and slow procedure. These drastically increased the battery usage, to try and combat this the number of updates were reduced. When reduced enough to make a difference to this battery usage the game play became outdated so quickly it was impossible to play an accurate game.
+
+It was decided to instead opt to use a single persistent socket between the client and server. This connection allowed free passage of data both up and down stream without having to reconnect or re-authenticate. This improves both speed and efficiency. When data is received by the server, if appropriate, it is instantly transmitted to all relevant clients. Meaning data received by the client is always as fresh as possible, while only sending network traffic when new data is available. This form of communication was implemented using raw sockets. A thread executed every 100 milliseconds reading a buffered line of input from the socket and passing this to a handler in the main controller. The problem with this approach is that it does not entirely handle disconnects or changes in network interface. Resulting in some unexpected behaviour when the user loses connection.
 
 
 
 \section{Server Implementation}
+\subsection{Communication}
+Server communication was handled by the twisted networking library which is a event-driven framework allowing for rapid implementation. Only two events were eventually used to track connected clients and receive data.
 
-\subsection{Echo}
+To enable the push style of communication it was important to keep an up to date list of connected clients. When a new connection is established the first command received must be an authentication request. Once a connection is authenticated a user object is created and stored in a list of connected users. After the connection is authenticated it can then start making other requests. If one of these requests affects game-play by creating, moving or attacking a unit all other units, within range, are notified. By looping through the list of connected users those in range can be isolated and their. A message is then transmitted to the connection obtained from their object.
 
-\subsection{Units}
+\subsection{Geo Function}
+Most of the functionality of the server requires calculations based upon coordinates and distance. These functions are not available inside Python so a class containing these methods was created. The mathematics involved in each function was aided by an detailed on-line resource\cite{geo} explaining how to perform different calculations on a sphere. Output from the resulting class was far from accurate as it took a simplistic view of the earth as a perfect, smooth sphere of a fix radius. It was deemed accurate enough for the required purpose.
 
-\subsection{Storage}
+A serious amount of time was wasted by unexpected output when requesting a bounding box around a coordinate. This was due to inexperience with the language rather than any errors in the theory. The function relied on radius been calculated by dividing the desired radius by the radius of the earth. This simple division was the root of the issue. As both values being divided were supplied as integers the returned value was also an integer. Due to the expected result being very small and precise instead of resulting in 0.0000123, for example, 0 was the given result. This 0 was then used to calculate the size of the bounding box meaning it was non existent. By adding a decimal to one of the values being used it changed it from an integer to a float thus returning a float of the correct value. Once this had been added the function worked exactly as anticipated.
 
-\subsection{AI}
+
+\subsection{Unit Control}
+Unit locations and other details are stored and queried directly in the SQLite database. As well as simply storing and transmitting unit locations the server also handles the movement of units between way points and confrontations between units.
+
+Unit movement is handled by a fairly simple formula that took longer than expected to reach. The final algorithm was based upon Bresenham's line algorithm\footnote{http://en.wikipedia.org/wiki/Bresenham's\_line\_algorithm}, one of the simplest solutions but results in fair accuracy and minimal computation. By combing the algorithm with a calculated number of steps it was possible to visualize unit movement between two points at a consistent speed. This was achieved by basing the number of steps on the distance remaining so that as the distance decreases so does the number of steps remaining to take before the unit has reached its destination.
+
+After all units have been relocated each unit looks for enemy units within range of its weaponry. Selecting the closest unit and removing health from it. This had the intended result but led to rigid, predictable and uninspiring behaviour. To make the combat more interesting the order in which units attacked was randomized as well as adding a probability to whether the units attack would be successful. Combined with limitations placed upon fire rates of each unit created a more dynamic experience. An uncomplicated but essential bit of reasoning that improved game-play drastically.

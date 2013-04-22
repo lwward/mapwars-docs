@@ -25,26 +25,23 @@
 \contentsline {subsection}{\numberline {4.1.2}Location}{18}
 \contentsline {subsection}{\numberline {4.1.3}GUI}{20}
 \contentsline {subsection}{\numberline {4.1.4}Communication}{22}
-\contentsline {section}{\numberline {4.2}Server Implementation}{22}
-\contentsline {subsection}{\numberline {4.2.1}Echo}{22}
-\contentsline {subsection}{\numberline {4.2.2}Units}{22}
-\contentsline {subsection}{\numberline {4.2.3}Storage}{22}
-\contentsline {subsection}{\numberline {4.2.4}AI}{22}
-\contentsline {chapter}{\numberline {5}Testing}{23}
-\contentsline {section}{\numberline {5.1}Overall Approach to Testing}{23}
-\contentsline {section}{\numberline {5.2}Automated Testing}{23}
-\contentsline {subsection}{\numberline {5.2.1}Unit Tests}{23}
-\contentsline {subsection}{\numberline {5.2.2}User Interface Testing}{23}
-\contentsline {subsection}{\numberline {5.2.3}Stress Testing}{23}
-\contentsline {subsection}{\numberline {5.2.4}Other types of testing}{23}
-\contentsline {section}{\numberline {5.3}Integration Testing}{23}
-\contentsline {section}{\numberline {5.4}User Testing}{23}
-\contentsline {chapter}{\numberline {6}Evaluation}{24}
-\contentsline {section}{\numberline {6.1}Primary \& Secondary Objectives}{24}
-\contentsline {section}{\numberline {6.2}Critical Evaluation}{24}
-\contentsline {subsection}{\numberline {6.2.1}Known Bugs}{24}
-\contentsline {subsection}{\numberline {6.2.2}Improvements}{24}
-\contentsline {section}{\numberline {6.3}Summary}{24}
-\contentsline {chapter}{Appendices}{25}
-\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{26}
+\contentsline {section}{\numberline {4.2}Server Implementation}{23}
+\contentsline {subsection}{\numberline {4.2.1}Communication}{23}
+\contentsline {subsection}{\numberline {4.2.2}Geo Function}{24}
+\contentsline {subsection}{\numberline {4.2.3}Unit Control}{24}
+\contentsline {chapter}{\numberline {5}Testing}{25}
+\contentsline {section}{\numberline {5.1}Overall Approach to Testing}{25}
+\contentsline {section}{\numberline {5.2}Automated Testing}{25}
+\contentsline {subsection}{\numberline {5.2.1}Unit Tests}{25}
+\contentsline {subsection}{\numberline {5.2.2}User Interface Testing}{25}
+\contentsline {subsection}{\numberline {5.2.3}Stress Testing}{25}
+\contentsline {subsection}{\numberline {5.2.4}Other types of testing}{25}
+\contentsline {section}{\numberline {5.3}Integration Testing}{25}
+\contentsline {section}{\numberline {5.4}User Testing}{25}
+\contentsline {chapter}{\numberline {6}Evaluation}{26}
+\contentsline {section}{\numberline {6.1}Primary \& Secondary Objectives}{26}
+\contentsline {section}{\numberline {6.2}Critical Evaluation}{26}
+\contentsline {subsection}{\numberline {6.2.1}Known Bugs}{26}
+\contentsline {subsection}{\numberline {6.2.2}Improvements}{26}
+\contentsline {section}{\numberline {6.3}Summary}{26}
 \contentsline {chapter}{Annotated Bibliography}{27}

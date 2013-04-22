@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.25)  21 APR 2013 18:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.25)  22 APR 2013 02:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -158,17 +158,8 @@ Package: suffix 2006/07/15 1.5 Variant command support
 \c@CPT@numB=\count103
 \CPT@commandatend@toks=\toks22
 ) (./dirtree.sty
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48  .
-       ................ Beginning of the documentation part .................
-? 
 Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+
 (./dirtree.tex `dirtree' v0.32, 2012/12/11 (jcc)
 \DT@offset=\dimen114
 \DT@width=\dimen115
@@ -213,18 +204,14 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-Overfull \hbox (5.55524pt too wide) in paragraph at lines 48--26
-[]\OT1/cmr/m/n/10.95 ................. Be-gin-ning of the doc-u-men-ta-tion par
-t ................. ....................
- []
-
 \wrapoverhang=\dimen128
 \WF@size=\dimen129
 \c@WF@wrappedlines=\count116
 \WF@box=\box35
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
-) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -382,7 +369,7 @@ Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
 (./dissertation.aux (./cover.aux) (./declaration.aux) (./abstract.aux)
 (./Background/Background.aux) (./Process/Process.aux) (./Design/Design.aux)
 (./Implementation/Implementation.aux) (./Testing/Testing.aux)
-(./Evaluation/Evaluation.aux) (./Appendix1/appendix1.aux))
+(./Evaluation/Evaluation.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -473,18 +460,14 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             ! on input line 42.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `cover.aux'.
 
- (./cover.tex
+
+(./cover.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Try loading font information for U+msa on input line 28.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 28.
@@ -498,7 +481,8 @@ Overfull \hbox (0.69365pt too wide) in paragraph at lines 28--28
 
 [0
 
-])
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \openout2 = `declaration.aux'.
 
  (./declaration.tex
@@ -566,14 +550,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
- <Images/android_ios.png, id=37, 413.6253pt x 397.485pt>
+ <Images/android_ios.png, id=33, 413.6253pt x 397.485pt>
 File: Images/android_ios.png Graphic file (type png)
 
 <use Images/android_ios.png>
 Package pdftex.def Info: Images/android_ios.png used on input line 24.
 (pdftex.def)             Requested size: 341.43436pt x 328.12932pt.
  [2] [3 <./Images/android_ios.png (PNG copy)>]
-<Images/tropical_storm.png, id=44, 963.6pt x 542.025pt>
+<Images/tropical_storm.png, id=40, 963.6pt x 542.025pt>
 File: Images/tropical_storm.png Graphic file (type png)
 
 <use Images/tropical_storm.png>
@@ -599,7 +583,7 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 (./Design/Design.tex
 Chapter 3.
-<Images/diagrams/client-class.png, id=72, 609.27625pt x 562.1pt>
+<Images/diagrams/client-class.png, id=67, 609.27625pt x 562.1pt>
 File: Images/diagrams/client-class.png Graphic file (type png)
 
 <use Images/diagrams/client-class.png>
@@ -610,7 +594,7 @@ Package pdftex.def Info: Images/diagrams/client-class.png used on input line 14
 
 
 
-] [13 <./Images/diagrams/client-class.png>] <Images/maps-google.png, id=81, 115
+] [13 <./Images/diagrams/client-class.png>] <Images/maps-google.png, id=77, 115
 2.305pt x 2001.4775pt>
 File: Images/maps-google.png Graphic file (type png)
 
@@ -630,38 +614,37 @@ Chapter 4.
 
 
 
-] [17] [18]
-<Images/diagrams/location.png, id=99, 362.35374pt x 1041.8925pt>
+] [17] <Images/diagrams/location.png, id=91, 362.35374pt x 1041.8925pt>
 File: Images/diagrams/location.png Graphic file (type png)
 
 <use Images/diagrams/location.png>
-Package pdftex.def Info: Images/diagrams/location.png used on input line 54.
+Package pdftex.def Info: Images/diagrams/location.png used on input line 48.
 (pdftex.def)             Requested size: 203.94511pt x 586.4073pt.
- [19 <./Images/diagrams/location.png (PNG copy)>] <Images/layout_include.png, i
-d=103, 1104.125pt x 612.2875pt>
+ [18] [19 <./Images/diagrams/location.png (PNG copy)>] <Images/layout_include.p
+ng, id=99, 1104.125pt x 612.2875pt>
 File: Images/layout_include.png Graphic file (type png)
 
 <use Images/layout_include.png>
-Package pdftex.def Info: Images/layout_include.png used on input line 68.
+Package pdftex.def Info: Images/layout_include.png used on input line 62.
 (pdftex.def)             Requested size: 426.79134pt x 236.6797pt.
  [20 <./Images/layout_include.png>] [21]
-<Images/input_green.png, id=111, 50.1875pt x 50.1875pt>
+<Images/input_green.png, id=107, 50.1875pt x 50.1875pt>
 File: Images/input_green.png Graphic file (type png)
 
 <use Images/input_green.png>
-Package pdftex.def Info: Images/input_green.png used on input line 117.
+Package pdftex.def Info: Images/input_green.png used on input line 111.
 (pdftex.def)             Requested size: 42.68173pt x 42.68483pt.
 
-Overfull \hbox (1.67636pt too wide) in paragraph at lines 118--118
+Overfull \hbox (1.67636pt too wide) in paragraph at lines 112--112
 []\OT1/ptm/m/n/10.95 Figure 4.5|| 
  []
 
-) [22 <./Images/input_green.png>]
+[22 <./Images/input_green.png>] [23]) [24]
 \openout2 = `Testing/Testing.aux'.
 
  (./Testing/Testing.tex
 Chapter 5.
-) [23
+) [25
 
 
 
@@ -670,37 +653,20 @@ Chapter 5.
 
  (./Evaluation/Evaluation.tex
 Chapter 6.
-) [24
-
-
-
-] [25
-
-
-]
-\openout2 = `Appendix1/appendix1.aux'.
-
- (./Appendix1/appendix1.tex
-Appendix A.
 ) [26
 
 
+
 ] (./dissertation.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
-[]\OT1/ptm/m/n/10.95 Android, ``Lo-ca-tion Strate-gies,'' $http : / / developer
- . android . com / guide / topics / location /
+Underfull \hbox (badness 4242) in paragraph at lines 28--30
+[]\OT1/ptm/m/n/10.95 ``Reference: an-droid.location,'' $http : / / developer . 
+android . com / reference / android / location /
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 34--36
-[]\OT1/ptm/m/n/10.95 ------, ``Ref-er-ence: an-droid.location,'' $http : / / de
-veloper . android . com / reference / android /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
-[]\OT1/ptm/m/n/10.95 ------, ``Sup-port-ing Dif-fer-ent Screen Sizes,'' $http :
- / / developer . android . com / training /
+Underfull \hbox (badness 1888) in paragraph at lines 34--36
+[]\OT1/ptm/m/n/10.95 ``Supporting Dif-fer-ent Screen Sizes,'' $http : / / devel
+oper . android . com / training / multiscreen /
  []
 
 
@@ -744,27 +710,26 @@ This document will not have a glossary.
 (./dissertation.aux (./cover.aux) (./declaration.aux) (./abstract.aux)
 (./Background/Background.aux) (./Process/Process.aux) (./Design/Design.aux)
 (./Implementation/Implementation.aux) (./Testing/Testing.aux)
-(./Evaluation/Evaluation.aux) (./Appendix1/appendix1.aux)) ) 
+(./Evaluation/Evaluation.aux)) ) 
 Here is how much of TeX's memory you used:
- 7869 strings out of 495059
- 114436 string characters out of 3182030
- 202210 words of memory out of 3000000
- 10773 multiletter control sequences out of 15000+200000
- 32387 words of font info for 73 fonts, out of 3000000 for 9000
+ 7863 strings out of 495059
+ 114271 string characters out of 3182030
+ 201493 words of memory out of 3000000
+ 10774 multiletter control sequences out of 15000+200000
+ 33465 words of font info for 74 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,11n,92p,1452b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texlive
-/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
-er/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (36 pages, 3593301 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on dissertation.pdf (35 pages, 3586048 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 153 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
