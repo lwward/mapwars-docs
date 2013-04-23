@@ -10,6 +10,7 @@ A level-1 auxiliary file: Design/Design.aux
 A level-1 auxiliary file: Implementation/Implementation.aux
 A level-1 auxiliary file: Testing/Testing.aux
 A level-1 auxiliary file: Evaluation/Evaluation.aux
+A level-1 auxiliary file: Appendix1/appendix1.aux
 The style file: IEEEannot.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -30,7 +31,7 @@ Warning--to sort, need author, organization, or key in gcm
 Done.
 You've used 14 entries,
             4538 wiz_defined-function locations,
-            954 strings with 10245 characters,
+            955 strings with 10268 characters,
 and the built_in function-call counts, 6912 in all, are:
 = -- 585
 > -- 101

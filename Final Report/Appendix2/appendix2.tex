@@ -1,94 +1,112 @@
-\chapter{Code samples}
+\chapter{Class diagram}\label{ap_class}
 
-\section{Random Number Generator}
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=0.3\textheight, angle=90]{Images/diagrams/class.png}
+\end{figure}
 
-The Bayes Durham Shuffle ensures that the psuedo random numbers used in the simulation are further shuffled, ensuring minimal correlation between subsequent random outputs \cite{NumericalRecipes}.
+
+
+\chapter{Server Testing Data Generator}\label{ap_class}
 
 \begin{verbatim}
- #define IM1 2147483563
- #define IM2 2147483399
- #define AM (1.0/IM1)
- #define IMM1 (IM1-1)
- #define IA1 40014
- #define IA2 40692 
- #define IQ1 53668
- #define IQ2 52774
- #define IR1 12211
- #define IR2 3791
- #define NTAB 32
- #define NDIV (1+IMM1/NTAB)
- #define EPS 1.2e-7
- #define RNMX (1.0 - EPS)
- 
- double ran2(long *idum)
- {
-   /*---------------------------------------------------*/
-   /* Minimum Standard Random Number Generator          */
-   /* Taken from Numerical recipies in C                */
-   /* Based on Park and Miller with Bays Durham Shuffle */
-   /* Coupled Schrage methods for extra periodicity     */
-   /* Always call with negative number to initialise    */
-   /*---------------------------------------------------*/	
- 
-   int j;
-   long k;
-   static long idum2=123456789;
-   static long iy=0;
-   static long iv[NTAB];
-   double temp;
- 
-   if (*idum <=0)
-   {
-     if (-(*idum) < 1)
-     {
-       *idum = 1;
-     }else
-     {
-       *idum = -(*idum);
-     }
-     idum2=(*idum);
-     for (j=NTAB+7;j>=0;j--)
-     {
-       k = (*idum)/IQ1;
-       *idum = IA1 *(*idum-k*IQ1) - IR1*k;
-       if (*idum < 0)
-       {
-         *idum += IM1;
-       }
-       if (j < NTAB)
-       {
-         iv[j] = *idum;
-       }
-     }
-     iy = iv[0];	
-   }
-   k = (*idum)/IQ1;
-   *idum = IA1*(*idum-k*IQ1) - IR1*k;
-   if (*idum < 0)
-   {
-     *idum += IM1;
-   }
-   k = (idum2)/IQ2;
-   idum2 = IA2*(idum2-k*IQ2) - IR2*k;
-   if (idum2 < 0)
-   {
-     idum2 += IM2;
-   }
-   j = iy/NDIV;
-   iy=iv[j] - idum2;
-   iv[j] = *idum;
-   if (iy < 1)
-   {
-     iy += IMM1;
-   }
-   if ((temp=AM*iy) > RNMX)
-   {
-     return RNMX;
-   }else
-   {
-     return temp;	
-   }
- }
- 
-\end{verbatim}
+#!/usr/bin/env python
+import socket
+import sys
+import time
+import re
+import json
 
+
+HOST = 'localhost'
+PORT = 4565
+
+sess = None
+userID = None
+
+try:
+  sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+  sock.connect((HOST, PORT))
+except socket.error, msg:
+  sys.stderr.write("[ERROR] %s\n" % msg[1])
+  sys.exit(1)
+
+
+while True:
+  n = raw_input("> ")
+
+  msgDic = dict()
+
+  if n == "exit":
+    break  # stops the loop
+  else:
+    match = re.findall("[^\s]+", n, re.M|re.I)
+    if match:
+      if match[0] == 'login':
+        msgDic['action'] = "user.login"
+        msgDic['user'] = match[1]
+        msgDic['pass'] = match[2]
+      elif match[0] == 'register':
+        msgDic['action'] = "user.register"
+        msgDic['user'] = match[1]
+        msgDic['pass'] = match[2]
+        msgDic['email'] = match[3]
+      elif match[0] == 'location':
+        msgDic['action'] = "user.location"
+
+        if len(match) == 3:
+          msgDic['lat'] = match[1]
+          msgDic['lon'] = match[2]
+        else:
+          msgDic['lat'] = '52.35184333541474'
+          msgDic['lon'] = '-1.966477632522583'
+      elif match[0] == 'unit':
+        msgDic['action'] = "unit.create"
+        msgDic['type'] = match[1]
+        msgDic['lat'] = match[2]
+        msgDic['lon'] = match[3]
+      elif match[0] == 'move':
+        msgDic['action'] = "unit.move"
+        msgDic['id'] = match[1]
+        msgDic['lat'] = match[2]
+        msgDic['lon'] = match[3]
+      else:
+        continue
+      
+      if sess:
+        msgDic['sess'] = sess
+      if userID:
+        msgDic['userID'] = userID
+
+      msg = json.dumps(msgDic)
+      print '\x1b[38;5;15m' + "S " + msg + '\033[0m'
+      sock.send(msg)
+
+
+    else:
+      continue
+
+
+  rec = sock.recv(2048)
+  try:
+    data = json.loads(rec)
+
+    #check for session data
+    if data['action'] == 'user.login' and data['status'] == 1:
+      sess = data['sess']
+      #sess = 'cat'
+      userID = data['userID']
+
+    if data['status'] == 1:
+      print '\x1b[38;5;46m' + "R " + rec + '\033[0m'
+    else:
+      print '\x1b[38;5;160m' + "R " + rec + '\033[0m'
+  except ValueError:
+    print rec
+
+
+sock.close()
+
+sys.exit(0)
+
+\end{verbatim}
