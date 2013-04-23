@@ -21,7 +21,7 @@ This years Developer Economics report\cite{de} looks at all aspects of the mobil
 
 \begin{figure}[H]
   \centering
-   \includegraphics[width=0.8\textwidth]{Images/android_ios.png}
+   \includegraphics[width=0.63\textwidth]{Images/android_ios.png}
   \caption{Developer Economics report\cite{de} shows iOS\\as the leading platform among developers}
   \label{fig:de}
 \end{figure}
@@ -32,12 +32,12 @@ The final consideration, which will be explored further in the following subsect
 
 
 \subsection{Android RTS Games}
-There is currently only a small handful of RTS games available for Android and of these most are unsatisfactory attempts. That being said there are a few well executed examples with the best examples coming from Noble Master Games (http://www.noblemaster.com/) who focus entirely on making these types of games for both desktop and mobile. The Stormfront series (http://www.operationstormfront.com) consisting of Tropical Stormfront and Desert Stormfront are the closest Android offerings to a full RTS gaming experience. Originally released for Android both were later ported to PC, MAC and Linux then subsequently iOS, this was made possible due to the game being built with OpenGL. These games offered the best chance to evaluate what had been done before and see what is expected and what would work well for MapWars. By examining different aspects from game play to control options it is a good opportunity to pick up ideas for the UI and user interaction.
+There is currently only a small handful of RTS games available for Android and of these most are unsatisfactory attempts. That being said there are a few well executed examples with the best examples coming from Noble Master Games who focus entirely on making these types of games for both desktop and mobile. The Stormfront series\footnote{http://www.operationstormfront.com} consisting of Tropical Stormfront and Desert Stormfront are the closest Android offerings to a full RTS gaming experience. Originally released for Android both were later ported to PC, MAC and Linux then subsequently iOS, this was made possible due to the game being built with OpenGL. These games offered the best chance to evaluate what had been done before and see what is expected and what would work well for MapWars. By examining different aspects from game play to control options it is a good opportunity to pick up ideas for the UI and user interaction.
 
 \begin{figure}
   \centering
    \includegraphics[width=0.8\textwidth]{Images/tropical_storm.png}
-  \caption{Tropical Stormfront from Noble Master Games}
+  \caption{Screenshot from Tropical Stormfront by Noble Master Games}
   \label{fig:ts}
 \end{figure}
 
@@ -51,20 +51,13 @@ Another aspect that is missing is the ability to create and position buildings. 
 
 As mentioned previously in game currency is generated based upon the number of bases a player controls. Each base earns \$50 per minute, so the more bases captured the more money earned which in turn allows for building more units. Resource discovery, gathering and management are key aspects on PC based RTS games but could present problems when being implemented on a mobile device. By removing these aspects the developers were able to speed up game play and in turn try to make the game more exciting. Unfortunately the direct correlation between number of units and victory made game play feel predictable as the player who captured the most bases inevitably won.
 
-Tropical Stormfront takes a good approach that, as with a number of the other compromises, directs the game towards casual gamers by removing some of the complex strategy decisions. They focused on fast based game play by setting the player up with a particular scenario with an established base and units with close proximity to the target. MapWars, although sharing many similarities, will ultimately be seeking a different target audience and game play style. The main aspects to be taken forward into the design of MapWars are:
-\begin{itemize}
-\item Simplify the process of issuing commands to units
-\item Ability to select multiple units at once
-\item Clutter free UI
-\item Cater for the casual gamer while accommodating those who want something more engaging
-\item Build queues
-\end{itemize}
+Tropical Stormfront takes a good approach that, as with a number of the other compromises, directs the game towards casual gamers by removing some of the complex strategy decisions. They focused on fast based game play by setting the player up with a particular scenario with an established base and units with close proximity to the target. MapWars, although sharing many similarities, will ultimately be seeking a different target audience and game play style.
 
 
 \section{Objectives}
-MapWars is going to attempt to focus on tactical game play with a mobile experience tailored to the users location. All game play will take place on a portion of a world map depending on the players location. While taking as many of the tactical aspects from existing PC RTS games with an elevated focus on resource gathering and long term tactical game play. Unlike some games that allow for fast paced "rushing" (a tactic in which a team will attack an opponent as quickly as possible as to surprise and overwhelm them) MapWars will encourage players to find and gather resources while building a substantial base and selection of units. This is in part due the sparsity of opponents in such a large environment. To try and compensate for the widespread nature of players, as well as the desire to recreate a real world experience, all players will play in a single persistent game. Being persistent all units will be visible even if their respective players are not online increases the emphasis on building a well formed and fortified base.
+MapWars attempts to focus on tactical game play with a mobile experience tailored to the users location. All game play will take place on a portion of a world map depending on the players location. While taking as many of the tactical aspects from existing PC RTS games with an elevated focus on resource gathering and long term tactical game play. Unlike some games that allow for fast paced "rushing" (a tactic in which a team will attack an opponent as quickly as possible as to surprise and overwhelm them) MapWars will encourage players to find and gather resources while building a substantial base and selection of units. This is in part due the sparsity of opponents in such a large environment. To try and compensate for the widespread nature of players, as well as the desire to recreate a real world experience, all players will play in a single persistent game. Being persistent all units will be visible even if their respective players are not online increases the emphasis on building a well formed and fortified base.
 
-Problems may be presented with early adopts and those in remote areas who will ultimately not come across other players for considerable portions of their experience. This will undoubtedly lead to players getting bored and leaving the game. To try and combat this possibility game play should try and be enhanced for non-offensive play. The focus on resource gathering, exploration and base development hopefully will be the main combat to this problem, giving players the ability to enjoy the game even without an opponent. Secondly the persistent and location-aware portions will help the game change and evolve as players move around. For example if a player from an unpopulated area spends their time enhancing their units could then travel to a more active area, such as a city, to engage with opponents.
+Problems may be present for early adopts and those in remote areas who will ultimately not come across other players for considerable portions of their experience. This will undoubtedly lead to players getting bored and leaving the game. To try and combat this possibility game play should try and be enhanced for non-offensive play. The focus on resource gathering, exploration and base development hopefully will be the main combat to this problem, giving players the ability to enjoy the game even without an opponent. Secondly the persistent and location-aware portions will help the game change and evolve as players move around. For example if a player from an unpopulated area spends their time enhancing their units could then travel to a more active area, such as a city, to engage with opponents.
 
 \subsection{Primary Objectives}
 The objectives listed are considered to be the minimum required to create a playable game:

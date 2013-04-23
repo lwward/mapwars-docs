@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.25)  23 APR 2013 02:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.25)  23 APR 2013 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,21 +580,20 @@ File: Images/android_ios.png Graphic file (type png)
 
 <use Images/android_ios.png>
 Package pdftex.def Info: Images/android_ios.png used on input line 24.
-(pdftex.def)             Requested size: 341.43436pt x 328.12932pt.
- [2] [3 <./Images/android_ios.png (PNG copy)>]
-<Images/tropical_storm.png, id=40, 963.6pt x 542.025pt>
+(pdftex.def)             Requested size: 268.88062pt x 258.40463pt.
+ [2 <./Images/android_ios.png (PNG copy)>]
+<Images/tropical_storm.png, id=37, 963.6pt x 542.025pt>
 File: Images/tropical_storm.png Graphic file (type png)
 
 <use Images/tropical_storm.png>
 Package pdftex.def Info: Images/tropical_storm.png used on input line 39.
 (pdftex.def)             Requested size: 341.43436pt x 192.05217pt.
- [4 <./Images/tropical_storm.png (PNG copy)>]
-[5] [6]) [7] [8]
+ [3] [4 <./Images/tropical_storm.png (PNG copy)>] [5] [6]) [7]
 \openout2 = `Process/Process.aux'.
 
  (./Process/Process.tex
 Chapter 2.
-[9
+[8
 
 
 
@@ -602,102 +601,98 @@ Chapter 2.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [10]) [11]
+) [9]) [10]
 \openout2 = `Design/Design.aux'.
 
 
 (./Design/Design.tex
 Chapter 3.
-<Images/diagrams/use.png, id=67, 599.23875pt x 339.2675pt>
+<Images/diagrams/use.png, id=64, 599.23875pt x 339.2675pt>
 File: Images/diagrams/use.png Graphic file (type png)
 
 <use Images/diagrams/use.png>
-Package pdftex.def Info: Images/diagrams/use.png used on input line 16.
+Package pdftex.def Info: Images/diagrams/use.png used on input line 17.
 (pdftex.def)             Requested size: 341.43436pt x 193.312pt.
- [12
+ [11
 
 
 
-] [13 <./Images/diagrams/use.png (PNG copy)>]
-<Images/maps-google.png, id=75, 1152.305pt x 2001.4775pt>
-File: Images/maps-google.png Graphic file (type png)
+] [12 <./Images/diagrams/use.png (PNG copy)>]
+[13] <Images/layout_include.png, id=75, 1104.125pt x 612.2875pt>
+File: Images/layout_include.png Graphic file (type png)
 
-<use Images/maps-google.png>
-Package pdftex.def Info: Images/maps-google.png used on input line 55.
-(pdftex.def)             Requested size: 85.35695pt x 148.2414pt.
-File: Images/maps-google.png Graphic file (type png)
- <use Images/maps-google.png>
-Package pdftex.def Info: Images/maps-google.png used on input line 61.
-(pdftex.def)             Requested size: 85.35695pt x 148.2414pt.
- [14]) [15 <./Images/maps-google.png>]
+<use Images/layout_include.png>
+Package pdftex.def Info: Images/layout_include.png used on input line 58.
+(pdftex.def)             Requested size: 426.79134pt x 236.6797pt.
+) [14 <./Images/layout_include.png>]
 \openout2 = `Implementation/Implementation.aux'.
 
- (./Implementation/Implementation.tex
+
+(./Implementation/Implementation.tex
 Chapter 4.
-[16
+[15
 
 
 
-] [17] <Images/diagrams/location.png, id=90, 362.35374pt x 1041.8925pt>
+] [16] [17]
+<Images/diagrams/location.png, id=90, 362.35374pt x 1041.8925pt>
 File: Images/diagrams/location.png Graphic file (type png)
 
 <use Images/diagrams/location.png>
 Package pdftex.def Info: Images/diagrams/location.png used on input line 48.
 (pdftex.def)             Requested size: 203.94511pt x 586.4073pt.
- [18] [19 <./Images/diagrams/location.png (PNG copy)>] <Images/layout_include.p
-ng, id=98, 1104.125pt x 612.2875pt>
-File: Images/layout_include.png Graphic file (type png)
-
-<use Images/layout_include.png>
-Package pdftex.def Info: Images/layout_include.png used on input line 62.
-(pdftex.def)             Requested size: 426.79134pt x 236.6797pt.
- [20 <./Images/layout_include.png>] [21]
-<Images/input_green.png, id=106, 50.1875pt x 50.1875pt>
+ [18] [19 <./Images/diagrams/location.png (PNG copy)>] [20] <Images/input_green
+.png, id=101, 50.1875pt x 50.1875pt>
 File: Images/input_green.png Graphic file (type png)
 
 <use Images/input_green.png>
-Package pdftex.def Info: Images/input_green.png used on input line 111.
+Package pdftex.def Info: Images/input_green.png used on input line 105.
 (pdftex.def)             Requested size: 42.68173pt x 42.68483pt.
 
-Overfull \hbox (1.67636pt too wide) in paragraph at lines 112--112
-[]\OT1/ptm/m/n/10.95 Figure 4.5|| 
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]\OT1/ptm/m/n/10.95 Figure 4.4: |Text
  []
 
-[22 <./Images/input_green.png>] [23]) [24]
+
+Underfull \hbox (badness 1881) in paragraph at lines 106--106
+\OT1/ptm/m/n/10.95 in-put 9-patch back-
+ []
+
+[21 <./Images/input_green.png>] [22] [23]) [24]
 \openout2 = `Testing/Testing.aux'.
 
  (./Testing/Testing.tex
 Chapter 5.
-<Images/test.png, id=118, 648.4225pt x 322.20375pt>
-File: Images/test.png Graphic file (type png)
- <use Images/test.png>
-Package pdftex.def Info: Images/test.png used on input line 18.
-(pdftex.def)             Requested size: 213.39566pt x 106.03749pt.
-
 [25
 
 
 
-]
-Overfull \hbox (14.53882pt too wide) in paragraph at lines 32--45
-[] 
- []
+] <Images/test.png, id=119, 648.4225pt x 322.20375pt>
+File: Images/test.png Graphic file (type png)
+ <use Images/test.png>
+Package pdftex.def Info: Images/test.png used on input line 22.
+(pdftex.def)             Requested size: 341.43436pt x 169.66096pt.
 
-)
-Overfull \hbox (14.53882pt too wide) in paragraph at lines 46--86
+[26 <./Images/test.png>]
+Overfull \hbox (14.53882pt too wide) in paragraph at lines 39--52
 [][] 
  []
 
-[26 <./Images/test.png>]
+)
+Overfull \hbox (14.53882pt too wide) in paragraph at lines 53--86
+[][] 
+ []
+
+[27]
 \openout2 = `Evaluation/Evaluation.aux'.
 
  (./Evaluation/Evaluation.tex
 Chapter 6.
-[27
+[28
 
 
 
-] [28] [29]) [30] [31
+] [29] [30]) [31] [32
 
 
 ]
@@ -705,28 +700,28 @@ Chapter 6.
 
  (./Appendix1/appendix1.tex
 Appendix A.
-[32
+[33
 
 
 ]
 Appendix B.
-<Images/diagrams/class.png, id=145, 1251.67625pt x 543.02875pt>
+<Images/diagrams/class.png, id=146, 1251.67625pt x 543.02875pt>
 File: Images/diagrams/class.png Graphic file (type png)
 
 <use Images/diagrams/class.png>
 Package pdftex.def Info: Images/diagrams/class.png used on input line 14.
 (pdftex.def)             Requested size: 450.56491pt x 195.47241pt.
- [33
+ [34
 
 ]
 Overfull \vbox (4.65967pt too high) has occurred while \output is active []
 
 
-[34 <./Images/diagrams/class.png (PNG copy)>]
+[35 <./Images/diagrams/class.png (PNG copy)>]
 Appendix C.
-[35
+[36
 
-] [36]) [37] (./dissertation.bbl
+] [37]) [38] (./dissertation.bbl
 Underfull \hbox (badness 4242) in paragraph at lines 34--36
 []\OT1/ptm/m/n/10.95 ``Reference: an-droid.location,'' $http : / / developer . 
 android . com / reference / android / location /
@@ -762,7 +757,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--75
 m / blog /
  []
 
-[38
+[39
 
 
 ]
@@ -773,7 +768,7 @@ Underfull \hbox (badness 4765) in paragraph at lines 98--100
 
 ) 
 AED: lastpage setting LastPage
-[39]
+[40]
 
 Package glossaries Warning: \makeglossaries hasn't been used,
 the glossaries will not be updated.
@@ -791,23 +786,23 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8084 strings out of 495059
- 117207 string characters out of 3182030
- 204543 words of memory out of 3000000
- 10983 multiletter control sequences out of 15000+200000
+ 8077 strings out of 495059
+ 117063 string characters out of 3182030
+ 204521 words of memory out of 3000000
+ 10977 multiletter control sequences out of 15000+200000
  33465 words of font info for 74 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,11n,92p,1452b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,11n,92p,1452b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (46 pages, 3662910 bytes).
+Output written on dissertation.pdf (47 pages, 1145781 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 194 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

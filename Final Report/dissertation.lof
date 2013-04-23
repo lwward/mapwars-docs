@@ -1,19 +1,17 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Developer Economics report\cite {de} shows iOS as the leading platform among developers\relax }}{3}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Tropical Stormfront from Noble Master Games\relax }}{4}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Developer Economics report\cite {de} shows iOS as the leading platform among developers\relax }}{2}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Screenshot from Tropical Stormfront by Noble Master Games\relax }}{4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Use case diagram\relax }}{13}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Insert design of game map\relax }}{15}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Insert design of game map menu\relax }}{15}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Use case diagram\relax }}{12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Isometric view of main game screen, showing separation between components\relax }}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Location flowchart\relax }}{19}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Isometric view of main game screen, showing separation between components\relax }}{20}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified layout file structure\relax }}{21}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Setting screen orientation based upon device\relax }}{21}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \relax }}{22}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Flowchart showing the reasoning involved when selecting a location provider\relax }}{19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Simplified layout file structure\relax }}{20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Setting screen orientation based upon device\relax }}{21}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Text input 9-patch background image\relax }}{21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Isometric view of main game screen, showing separation between components\relax }}{26}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The message generator tool in action\relax }}{26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
