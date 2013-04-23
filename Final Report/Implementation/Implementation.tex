@@ -31,9 +31,7 @@ MapBox did not offer satellite imagery but the beauty and simplicity of the maps
 
 
 \subsection{Location}
-Detecting the users location accurately is fundamental and is used directly in controlling game play throughout the game.
-
-There are a number of difficulties presented when trying to accurately determine a users location. Firstly is the array of different providers available, each with their own unique characteristics, advantages and disadvantages.
+Detecting the users location accurately is fundamental and is used directly in controlling game play throughout the game. There are a number of difficulties presented when trying to accurately determine a users location. Firstly is the array of different providers available, each with their own unique characteristics, advantages and disadvantages.
 
 Getting location updates within the application code was straightforward. Android exposes location updates by subscribing to providers via the LocationManager. A LocationListener can subscribe to any number of location providers and specify the frequency of updates required. Updates are sent after a minimum time and distance is reached. For this application battery life was more of a concern than getting high precise to the second data. So the minimum time between updates was set to one minute and the minimum distance sent to 2 meters. The minimum distance did not directly save battery but eliminates noise and recalculations based on small movements.
 
@@ -45,7 +43,7 @@ The process used to determine the most accurate location was adapted from an exa
 
 \begin{figure}[H]
   \centering
-   \includegraphics[height=0.9\textheight]{Images/diagrams/location.png}
+   \includegraphics[height=0.83\textheight]{Images/diagrams/location.png}
   \caption{Flowchart showing the reasoning involved when selecting a location provider}
   \label{fig:location}
 \end{figure}
@@ -82,7 +80,7 @@ From the design specifications for the GUI it was decided that devices of differ
 It is also possible to set the orientation within the application code. Each activities orientation can be set using \verb|Activity.setRequestedOrientation|. Once it has been determined which device is being used it is then possible to set the relevant orientation, as shown in figure \ref{fig:orientation}. It is to be noted that this changes the orientation for this activity, not the application. As the application is built of multiple activities this needs to run whenever a new activity is created. All activities have access to the MainController and call \verb|setActivity| on creation, so this seemed like the most logical point to do this.
 
 \begin{figure}[H]
-\begin{verbatim}
+\begin{lstlisting}
 if (Utils.isTablet(currentContext)) {
     currentActivity.setRequestedOrientation(
             ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
@@ -90,7 +88,7 @@ if (Utils.isTablet(currentContext)) {
     currentActivity.setRequestedOrientation(
             ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 }
-\end{verbatim}
+\end{lstlisting}
 \caption{Setting screen orientation based upon device}
 \label{fig:orientation}
 \end{figure}
@@ -132,13 +130,13 @@ Server communication was handled by the twisted networking library which is a ev
 
 To enable the push style of communication it was important to keep an up to date list of connected clients. When a new connection is established the first command received must be an authentication request. Once a connection is authenticated a user object is created and stored in a list of connected users. After the connection is authenticated it can then start making other requests. If one of these requests affects game-play by creating, moving or attacking a unit all other units, within range, are notified. By looping through the list of connected users those in range can be isolated and their. A message is then transmitted to the connection obtained from their object.
 
-\subsection{Geo Function}
+\subsection{Geospacial Function}
 Most of the functionality of the server requires calculations based upon coordinates and distance. These functions are not available inside Python so a class containing these methods was created. The mathematics involved in each function was aided by an detailed on-line resource\cite{geo} explaining how to perform different calculations on a sphere. Output from the resulting class was far from accurate as it took a simplistic view of the earth as a perfect, smooth sphere of a fix radius. It was deemed accurate enough for the required purpose.
 
 A serious amount of time was wasted by unexpected output when requesting a bounding box around a coordinate. This was due to inexperience with the language rather than any errors in the theory. The function relied on radius been calculated by dividing the desired radius by the radius of the earth. This simple division was the root of the issue. As both values being divided were supplied as integers the returned value was also an integer. Due to the expected result being very small and precise instead of resulting in 0.0000123, for example, 0 was the given result. This 0 was then used to calculate the size of the bounding box meaning it was non existent. By adding a decimal to one of the values being used it changed it from an integer to a float thus returning a float of the correct value. Once this had been added the function worked exactly as anticipated.
 
 
-\subsection{Unit Control}
+\subsection{Artificial Unit Control}
 Unit locations and other details are stored and queried directly in the SQLite database. As well as simply storing and transmitting unit locations the server also handles the movement of units between way points and confrontations between units.
 
 Unit movement is handled by a fairly simple formula that took longer than expected to reach. The final algorithm was based upon Bresenham's line algorithm\footnote{http://en.wikipedia.org/wiki/Bresenham's\_line\_algorithm}, one of the simplest solutions but results in fair accuracy and minimal computation. By combing the algorithm with a calculated number of steps it was possible to visualize unit movement between two points at a consistent speed. This was achieved by basing the number of steps on the distance remaining so that as the distance decreases so does the number of steps remaining to take before the unit has reached its destination.

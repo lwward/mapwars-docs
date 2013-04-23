@@ -3,6 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: declaration.aux
+A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: Background/Background.aux
 A level-1 auxiliary file: Process/Process.aux
@@ -31,14 +32,14 @@ Warning--to sort, need author, organization, or key in gcm
 Done.
 You've used 14 entries,
             4538 wiz_defined-function locations,
-            955 strings with 10268 characters,
-and the built_in function-call counts, 6912 in all, are:
+            968 strings with 12901 characters,
+and the built_in function-call counts, 6918 in all, are:
 = -- 585
 > -- 101
 < -- 18
 + -- 52
 - -- 24
-* -- 296
+* -- 302
 := -- 1110
 add.period$ -- 28
 call.type$ -- 14

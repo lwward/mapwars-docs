@@ -7,14 +7,16 @@ number={5},
 pages={61-72},
 keywords={software engineering;enhancement;risk-driven approach;software development;software process models;spiral model;Application software;Military computing;Navigation;Productivity;Programming;Prototypes;Software prototyping;Spirals;Testing},
 doi={10.1109/2.59},
-ISSN={0018-9162}}
+ISSN={0018-9162},
+annote={Giving an outline description of the spiral model as well different advantages and disadvantages associated with such a model. This helped both understand the model in further detail and also influenced the final decision to opt this style of development.}
+}
 
 @misc{smartphone_market,
   author="comScore",
  title={{comScore Reports February 2013 U.S. Smartphone Subscriber Market Share}},
  howpublished={\url{http://www.comscore.com/Insights/Press_Releases/2013/4/comScore_Reports_February_2013_U.S._Smartphone_Subscriber_Market_Share}},
  year=2013,
- annote={This is my annotation. I should add in a description here.}
+ annote={This was the most recent source of mobile device statistics. Although it was fairly certain that Android would be the platform of choice it was useful to get a feeling of what market share Android currently has.}
 }
 
 @misc{de,
@@ -22,14 +24,14 @@ author={{Developer Economics}},
 title={Developer Tools: The Foundations of the App Economy},
 howpublished={\url{http://www.visionmobile.com/product/developer-economics-2013-the-tools-report/}},
 year={2013},
-annote={This is my annotation. I should add in a description here.}
+annote={A incredibly detailed insight into mobile applications and the developers that create them. Was important to get an insight into both the market and the environment, both of which were clear from this report.}
 }
 
 @misc{mapquest_example,
   author="MapQuest",
  title={{Android Maps API: Developer's Guide}},
  howpublished={\url{http://developer.mapquest.com/web/products/featured/android-maps-api/documentation}},
- annote={This is my annotation. I should add in a description here.}
+ annote={These developer guides were invaluable when trying to first integrate MapQuest's own API.}
 }
 
 @misc{devices,
@@ -37,19 +39,19 @@ annote={This is my annotation. I should add in a description here.}
  title={{Where in the World are Android Devices Showing Up?}},
  howpublished={\url{http://www.handsetdetection.com/blog/where-in-the-world-are-android-devices-showing-up-infographic/}},
  year={2013},
- annote={This is my annotation. I should add in a description here.}
+ annote={A well made info graphic giving detailed country based insights into Android device usage.}
 }
 
 @misc{location,
  title={{Location Strategies}},
  howpublished={\url{http://developer.android.com/guide/topics/location/strategies.html}},
- annote={This is my annotation. I should add in a description here.}
+ annote={While trying to understand how location providers worked at a low level this guide helped fill in the gaps. It also provided the basis for the final implementation that maintained the best location estimate.}
 }
 
 @misc{location_accuracy,
  title={{Reference: android.location}},
  howpublished={\url{http://developer.android.com/reference/android/location/Location.html}},
- annote={This is my annotation. I should add in a description here.}
+ annote={API reference pages are invaluable when trying to get an understanding of how best to solve a problem. This reference was particularly useful as location exposes a number of functions, most of which are used within the application.}
 }
 
 
@@ -57,36 +59,35 @@ annote={This is my annotation. I should add in a description here.}
  title={{Android - detect small tablet vs big phone?}},
  howpublished={\url{http://stackoverflow.com/a/10080537/794119}},
  year={2012},
- annote={This is my annotation. I should add in a description here.}
+ annote={A simple solution for a problem that had caused a number of problems while trying to solve. This solution was used directly in the final code base.}
 }
 
 @misc{screensizes,
  title={{Supporting Different Screen Sizes}},
  howpublished={\url{http://developer.android.com/training/multiscreen/screensizes.html}},
- annote={This is my annotation. I should add in a description here.}
+ annote={Android provides a wide range of options when customising layouts for different device, this guide neatly explains all possibilities.}
 }
 
 
 @misc{geo,
  author={{Jan Philip Matuschek}},
- title={{Finding Points Within a Distance of a Latitude/Longitude Using Bounding Coordinates}},
+ title={{v}},
  howpublished={\url{http://janmatuschek.de/LatitudeLongitudeBoundingCoordinates}},
- annote={mathematics that is outside of my domain knowledge.}
+ annote={While trying to calculate geospacial coordinates it was clear that the mathematics were outside of my domain knowledge. This article helped understand how such calculations are devised and how they work. Portions of the example code were adapted and used in the final code base.}
 }
 
 @misc{mapquest_directions,
   author="MapQuest",
  title={{Open Directions Service Developer's Guide}},
  howpublished={\url{http://open.mapquestapi.com/directions/}},
- annote={This is my annotation. I should add in a description here.}
+ annote={Open direction provides the solution to one of the unimplemented secondary objectives. This guide was useful to determine how simple a solution would be and ultimately influenced the final decision not to implement.}
 }
 
 @misc{gcm,
  title={{Google Cloud Messaging for Android}},
  howpublished={\url{http://developer.android.com/google/gcm/index.html}},
- annote={This is my annotation. I should add in a description here.}
+ annote={Google Cloud Messaging provides the solution to one of the unimplemented secondary objectives. This guide was useful to determine how simple a solution would be and ultimately influenced the final decision not to implement.}
 }
-
 
 @INPROCEEDINGS{1377314,
 author={Trevisani, E. and Vitaletti, A.},
@@ -95,7 +96,9 @@ year={2004},
 pages={51-60},
 keywords={mobile computing;mobile handsets;Cell-ID location technique;discovery accuracy;discovery noise;location-based services;mobile phone;positioning accuracy;resource discovery services;Computational modeling;Costs;Disaster management;Emergency services;Global Positioning System;Investments;Mobile handsets;Remuneration;Road transportation;Telephone sets},
 doi={10.1109/MCSA.2004.9},
-ISSN={1550-6193},}
+ISSN={1550-6193},
+annote={A great introduction into the topic of cell-ID based location, one of the less well known location providers. It was also interesting to read about further techniques that can be utilized to improve the accuracy of cell-ID based location.}
+}
 
 @INPROCEEDINGS{6329833,
 author={Lopes, C.V. and Debeauvais, T. and Valadares, A.},
@@ -104,5 +107,7 @@ year={2012},
 pages={1-4},
 keywords={client-server systems;computer games;fault tolerance;software architecture;MMVE;RESTful massively multiuser virtual environments;client-server system;data management systems;fault tolerance;gameplay;network architectures;quality of experience;representational state transfer;user interactions;Bandwidth;Computer architecture;Conferences;Databases;Games;Scalability;Servers;MMO;MMVE;architecture;client-server;scalability},
 doi={10.1109/IGIC.2012.6329833},
-ISSN={2166-6741},}
+ISSN={2166-6741},
+annote={Concluding that REST could be used as a architecture for desktop multi-player games motivated me to want to investigate if the same is true for mobile devices. Even though the PULL style technology was not adopted for the final version this paper was used earlier in development.}
+}
 
